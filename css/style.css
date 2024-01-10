@@ -138,7 +138,7 @@ main{
 
 .visual_wrap p{
     font-size: 60px;
-    font-family: "Bebas";
+    font-family: 'Bebas Neue', sans-serif;
     font-weight: 400;
     color: #fff;
 }
@@ -637,7 +637,7 @@ footer{
     
     .visual_wrap p{
         font-size: 100px;
-        font-family: "Bebas";
+        font-family: 'Bebas Neue', sans-serif;
         font-weight: 400;
         color: #fff;
     }
