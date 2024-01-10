@@ -13,13 +13,6 @@
     src: url(/font/Pretendard-SemiBold.woff) format("woff");
 }
 
-@font-face
-{
-    font-family: 'Bebas';
-    font-weight: 400;
-    src: url(/font/BebasNeue-Regular.woff) format("woff");
-}
-
 #canvas{
     /* background: red; */
     overflow: hidden;
