@@ -1,384 +1,849 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2023 SIM HYEOK BO :: PORTFOLIO</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css" />
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap">
-    <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NERDY</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/index.css">
 </head>
+
 <body>
-    <header>
-        <div class="header_wrap">
-            <nav>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                        <defs>
-                            <style>
-                                .cls-1,.cls-2{fill:none;}.cls-2{stroke:#9e9e9e;stroke-miterlimit:10;}
-                            </style>
-                        </defs>
-                        <g id="레이어_2" data-name="레이어 2">
-                            <g id="레이어_1-2" data-name="레이어 1">
-                                <rect class="cls-1" width="20" height="20"/>
-                                <line class="cls-2" y1="5.27" x2="20" y2="5.27"/>
-                                <line class="cls-2" y1="10" x2="20" y2="10"/>
-                                <line class="cls-2" y1="14.73" x2="20" y2="14.73"/>
-                            </g>
-                        </g>
-                    </svg>
-                <ul class="nav_wrap">
-                    <li>
-                        <button class="view_profile">
-                            <p>PROFILE</p>
-                        </button>
-                    </li>
-                    <li>
-                        <button class="view_work">         
-                            <p>WORK</p>
-                    </li>
-                    <li>
-                        <button class="view_contact">       
-                            <p>CONTACT</p>
-                            </button>
-                    </li>
-                </ul>
-            </nav>
-            <!-- 내비게이션 -->
-            <div class="mb_top_btn">
-                <button class="top_btn">
-                    <p>TOP</p>
-                </button>
+  <div class="backgro"></div>
+  <header>
+    <div class="header_top">
+      <div class="header_top_left">
+        <h1 class="header_logo">
+          <a href="./index.html"><img src="img/Nerdy_white.png" alt="Nerdy"></a>
+        </h1>
+      </div>
+
+      <div class="header_top_right">
+        <ul class="header_right_wrap">
+          <li><a href="#"><img src="svg/pouch_white_shadow.svg" alt="장바구니"></a></li>
+          <li><a href="#"><img src="svg/mypage_white_shadow.svg" alt="마이페이지"></a></li>
+          <li><a href="#"><img src="svg/Search_white_shadow.svg" alt="검색"></a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- header_top end -->
+    <div class="header_bottom">
+      <div class="nav">
+        <div class="on_nav">
+          <button type="button" class="btn_on">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+        <ul class="nav_wrap">
+          <li>
+            <div class="nav_inner">
+              <ul class="nav_inner_wrap">
+                <li>
+                  <div class="nav_inner_btn close">
+                    <div class="nav_inner_btn_wrap">
+
+                      <span class="line-01"></span>
+                      <span class="line-02"></span>
+
+                    </div>
+                  </div>
+                  <div>
+                    <a href="./index.html"><img src="img/Nerdy_black.png" alt="Nerdy"></a>
+                  </div>
+                  <div class="nav_top">
+                    <div class="home"><a href="./index.html">HOME ></a></div>
+                    <div class="about"><a href="./about.html">ABOUT US</a></div>
+                    <div class="showcase"><a href="./show.html">SHOW CASE</a></div>
+                    <div class="allSale"><a href="#">PRODUCT</a></div>
+                  </div>
+                  <div class="nav_bottom">
+                    <div class="order"><a href="#">주문내역</a></div>
+                    <div class="deli"><a href="#">배송조회</a></div>
+                  </div>
+                </li>
+              </ul>
             </div>
-        </div>
-    </header>
-    <!-- 헤더 내비게이션 -->
-    <div class="detail_view airseoul">
-        <button class="detail_close">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="-9 -9 40 40">
-                <defs>
-                    <style>.close_btn_1{fill:none;stroke:#ffffff;stroke-miterlimit:10;stroke-width:1px;}</style>
-                </defs>
-                <g id="detail_off" data-name="detail_off">
-                    <g id="detail_off2" data-name="detail_off2">
-                        <line class="close_btn_1" x1="1" y1="1" x2="21" y2="21"/>
-                        <line class="close_btn_1" x1="21" y1="1" x2="1" y2="21"/>
-                    </g>
-                </g>
-            </svg>
-        </button>
-        <div class="air_detail_wrap detail_bg"></div>
-        <div class="air_detail">
-            <img src="https://github.com/simjsik/hackbo.github.io/assets/39624384/4b81e09d-5600-4199-bcc4-23728ee72e3e" alt="air_detail">
-        </div>
+          </li>
+        </ul>
+      </div>
     </div>
-    <div class="detail_view lotte">
-        <button class="detail_close">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="-9 -9 40 40">
-                <defs>
-                    <style>.close_btn_1{fill:none;stroke:#ffffff;stroke-miterlimit:10;stroke-width:1px;}</style>
-                </defs>
-                <g id="detail_off" data-name="detail_off">
-                    <g id="detail_off2" data-name="detail_off2">
-                        <line class="close_btn_1" x1="1" y1="1" x2="21" y2="21"/>
-                        <line class="close_btn_1" x1="21" y1="1" x2="1" y2="21"/>
-                    </g>
-                </g>
-            </svg>
-        </button>
-        <div class="lotte_detail_wrap detail_bg"></div>
-        <div class="lotte_detail">
-            <img src="https://github.com/simjsik/hackbo.github.io/assets/39624384/f8bb365e-c9b6-4c2b-9cf2-de008dbb4d19" alt="lotte_detail">
+    <!-- header_bottom end -->
+    <div class="visual">
+      <video class="mobile tablet" src="video/nerdy.mp4" autoplay muted loop></video>
+      <div class="visual_wrap">
+        <div class="visual_img pc"></div>
+        <div class="visual_text">
+          <ul class="visual_text_wrap pc">
+            <li>
+              <p>신학기 페스티벌</p>
+              <i>설레이는 신학기 준비</i>
+              <b>널디와 함께 최대 80% 할인</b>
+            </li>
+          </ul>
         </div>
+      </div>
     </div>
-    <div class="detail_view bnk_view">
-        <button class="detail_close">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="-9 -9 40 40">
-                <defs>
-                    <style>.close_btn_1{fill:none;stroke:#ffffff;stroke-miterlimit:10;stroke-width:1px;}</style>
-                </defs>
-                <g id="detail_off" data-name="detail_off">
-                    <g id="detail_off2" data-name="detail_off2">
-                        <line class="close_btn_1" x1="1" y1="1" x2="21" y2="21"/>
-                        <line class="close_btn_1" x1="21" y1="1" x2="1" y2="21"/>
-                    </g>
-                </g>
-            </svg>
-        </button>
-        <div class="bnk_detail_wrap detail_bg"></div>
-        <div class="bnk_detail">
-            <img src="https://github.com/simjsik/hackbo.github.io/assets/39624384/92e1dbc7-170a-4ac6-84f3-e2b2c0eede3a" alt="bnk_detail">
-        </div>
-    </div>
-    <div class="detail_view helpy_view">
-        <button class="detail_close">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="-9 -9 40 40">
-                <defs>
-                    <style>.close_btn_1{fill:none;stroke:#ffffff;stroke-miterlimit:10;stroke-width:1px;}</style>
-                </defs>
-                <g id="detail_off" data-name="detail_off">
-                    <g id="detail_off2" data-name="detail_off2">
-                        <line class="close_btn_1" x1="1" y1="1" x2="21" y2="21"/>
-                        <line class="close_btn_1" x1="21" y1="1" x2="1" y2="21"/>
-                    </g>
-                </g>
-            </svg>
-        </button>
-        <div class="helpy_detail_wrap detail_bg"></div>
-        <div class="helpy_detail">
-            <img src="https://github.com/simjsik/hackbo.github.io/assets/39624384/9973c812-98cc-45b4-af33-9c27360892da" alt="helpy_detail">
-        </div>
-    </div>
-    
-    <main>
-        <section id="visual">
-            <h2>visual</h2>
-            <div id="canvas" class="gradient">
-                <div class="visual_wrap">
-                    <ul class="visual_wrap_cont">
-                        <li>
-                            <p>2023</p>
-                            <p>WEB & PUBLISHING</p>
-                            <p>PORTFOLIO</p>
-                            <span>2023 웹 디자인 & 퍼블리싱 심혁보 포트폴리오</span>
-                        </li>
-                    </ul>
+    <!-- <div class="scroll_btn mobile tablet">
+      <div class="scroll_btn_img"></div>
+    </div> -->
+    <!-- visual end -->
+
+  </header>
+
+  <main>
+    <div class="section_wrap">
+      <section id="New">
+        <div class="section1_wrap">
+          <h2 class="screen_out">New Product</h2>
+          <div class="sec1_fixed">
+            <div class="sec1_text_fixed">
+              <ul class="sec1_text_wrap">
+                <li>
+                  <p>NEW</p>
+                  <b>New Product</b>
+                  <i>22FW TAYEON 1ST COLLECTION</i>
+                </li>
+              </ul>
+            </div>
+            <div class="sec1_fixed_img">
+              <img src="img/sec1_right.jpg" alt="Tyeon1">
+              <div class="pro_hover_box1">
+                <div class="sec1_pro_circle1"></div>
+                <div class="sec1_pro_text_box1">
+                  <p>빅 로고 슬라이드</p>
+                  <i>34,000원 ></i>
                 </div>
+              </div>
+              <div class="pro_hover_box2">
+                <div class="sec1_pro_circle2"></div>
+                <div class="sec1_pro_text_box2">
+                  <p>엔와이 우븐 하프 트랙 세트</p>
+                  <i>178,000원 ></i>
+                </div>
+              </div>
+              <div class="pro_hover_box3">
+                <div class="sec1_pro_circle3"></div>
+                <div class="sec1_pro_text_box3">
+                  <p>DNA 모노그램 파우치 크로스 백</p>
+                  <i>109,000원 ></i>
+                </div>
+              </div>
+              <!-- <div class="sec1_opacityBox"></div> -->
             </div>
-        </section>
-        <!-- visual -->
+          </div>
+          <!-- left -->
+          <div class="sec1_right_box">
+            <div class="sec1_right mySwiper">
+              <div class="sec1_right_wrap clearfix swiper-wrapper">
 
-        <section id="profile">
-            <h2>profile</h2>
-            <div class="pro_wrap">
-                <p data-aos="fade-right" data-aos-duration="700">01 PROFILE</p>
-                <ul class="pro_wrap_top" data-aos="fade" data-aos-duration="700" data-aos-delay="500">
+                <div class="swiper-slide">
+                  <ul class="sec1_product1">
                     <li>
-                        <p>안녕하세요!</p>
-                        <p>기본과 소통을 중요시하는</p>
-                        <p>열려있는 웹 퍼블리셔 심혁보 입니다.</p>
-                    </li>
-                </ul>
-
-                <ul class="pro_wrap_about">
-                    <li data-aos="fade-right" data-aos-duration="700">
-                        <div class="tag_box"></div>
-                        <p>ABOUT</p>
-                    </li>
-                    <li data-aos="fade" data-aos-duration="700" data-aos-delay="500">
-                        <p>심혁보 1999.03.05</p>
-                        <p>010-8532-3126</p>
-                        <p>simjsik75@naver.com</p>
-                    </li>
-                </ul>
-                <!-- about -->
-
-                <ul class="pro_wrap_edu">
-                    <li data-aos="fade-right" data-aos-duration="700">
-                        <div class="tag_box"></div>
-                        <p>EDUCATION</p>
-                    </li>
-                    <li data-aos="fade" data-aos-duration="700" data-aos-delay="500">
-                        <div class="tag_circle">
-                            <p class="day">2022.10</p>
+                      <div class="proBox_wrap">
+                        <div class="proBox">
+                          <a href="#">
+                            <img src="img/NYhalftrack1.png" alt="NY트랙반팔세트">
+                            <img src="img/NYhalftrack2.png" alt="NY트랙반팔세트">
+                            <!-- <img src="img/NY_hover.jpg" alt=""> -->
+                          </a>
                         </div>
-                        <p>SBS 아카데미 웹디자인&퍼블리싱 교육과정 수료</p>
-                    </li>
-                </ul>
-                <!-- education -->
+                      </div>
+                      <p>NY WOOVEN HALF TRACK SET</p>
+                      <i><a href="#">엔와이 우븐 하프 트랙 세트</a></i>
 
-                <ul class="pro_wrap_cert">
-                    <li data-aos="fade-right" data-aos-duration="700">
-                        <div class="tag_box"></div>
-                        <p>CERTFICATE</p>
+                      <div class="color_btn_wrap mobile tablet">
+                        <button class="color_chn1">아이보리</button>
+                        <button class="color_chn2">검정</button>
+                      </div>
+
+                      <span><a href="#">GO SHOP ></a></span>
                     </li>
-                    <li data-aos="fade" data-aos-duration="700" data-aos-delay="500">
-                        <div class="tag_circle">
-                            <p class="day">2023.2</p>
+                  </ul>
+                </div>
+                <!-- 1 -->
+
+                <div class="swiper-slide">
+                  <ul class="sec1_product2">
+                    <li>
+                      <div class="proBox_wrap">
+                        <div class="proBox">
+                          <a href="#">
+                            <img src="img/DNAmonopouch1.png" alt="DNA파우치크로스백">
+                            <img src="img/DNAmonopouch2.png" alt="DNA파우치크로스백">
+                          </a>
                         </div>
-                        <p>GTQ 1급</p>
+                      </div>
+                      <p>DNA MONOGRAM POUCH CROSS BAG</p>
+                      <i><a href="#">DNA 모노그램 파우치 크로스 백</a></i>
+
+                      <div class="color_btn_wrap mobile tablet">
+                        <button class="color_chn1">아이보리</button>
+                        <button class="color_chn2">검정</button>
+                      </div>
+
+                      <span><a href="#">GO SHOP ></a></span>
                     </li>
-                    <li data-aos="fade" data-aos-duration="700" data-aos-delay="500">
-                        <div class="tag_circle">
-                            <p class="day">2023.4</p>
+                  </ul>
+                </div>
+                <!-- 2 -->
+
+                <div class="swiper-slide">
+                  <ul class="sec1_product3">
+                    <li>
+                      <div class="proBox_wrap">
+                        <div class="proBox">
+                          <a href="#">
+                            <img src="img/Biglogoslide.png" alt="빅로고슬라이더">
+                            <img src="img/Biglogoslide2.png" alt="빅로고슬라이더">
+                            <img src="img/Biglogoslide3.png" alt="빅로고슬라이더">
+                          </a>
                         </div>
-                        <p>웹디자인 기능사</p>
-                    </li>
-                </ul>
-                <!-- education -->
-                
-                <ul class="pro_wrap_skill">
-                    <li data-aos="fade-right" data-aos-duration="700">
-                        <div class="tag_box"></div>
-                        <p>SKILL</p>
-                    </li>
-                    <ul class="skill_wrap">
-                        <li class="skill_box" data-aos-duration="700" data-aos="zoom-in">
-                        </li>
-                        <li class="skill_box" data-aos-duration="700" data-aos-delay="100" data-aos="zoom-in">
-                        </li>
-                        <li class="skill_box" data-aos-duration="700" data-aos-delay="200" data-aos="zoom-in">
-                        </li>
-                        <li class="skill_box" data-aos-duration="700" data-aos-delay="300" data-aos="zoom-in">
-                        </li>
-                        <li class="skill_box" data-aos-duration="700" data-aos-delay="400" data-aos="zoom-in">
-                        </li>
-                        <li class="skill_box" data-aos-duration="700" data-aos-delay="500" data-aos="zoom-in">
-                        </li>
-                        <li class="skill_box" data-aos-duration="700" data-aos-delay="600" data-aos="zoom-in">
-                        </li>
-                        <li class="skill_box" data-aos-duration="700" data-aos-delay="700" data-aos="zoom-in">
-                        </li>
-                    </ul>
+                      </div>
+                      <p>BIG LOGO SLIDE</p>
+                      <i><a href="#">빅 로고 슬라이드</a></i>
 
-                </ul>
-                <!-- education -->
+                      <div class="color_btn_wrap mobile tablet">
+                        <button class="color_chn1">아이보리</button>
+                        <button class="color_chn2">민트</button>
+                        <button class="color_chn3">네이비</button>
+                      </div>
 
+                      <span><a href="#">GO SHOP ></a></span>
+                    </li>
+                  </ul>
+                </div>
+                <!-- 3 -->
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
             </div>
-        </section>
-        <!-- profile -->
-
-        <section id="work">
-            <h2>work</h2>
-            <div class="work_wrap">
-                <ul class="work_web_wrap">
-                    <li data-aos="fade-right" data-aos-duration="700">
-                        <p>02 WORK - WEB</p>
-                    </li>
-                    <li class="nerdy" data-aos="flip-down" data-aos-duration="500">
-                        <div class="work_nerdy_wrap">
-                            <p data-aos="fade" data-aos-duration="1000" data-aos-delay="200">NERDY</p>
-                            <div class="nerdy_box" data-aos="fade" data-aos-duration="1000" data-aos-delay="500">
-                                <img src="https://github.com/simjsik/hackbo.github.io/assets/39624384/3583ee34-3e69-48b8-bac8-acb2f6704407" alt="nerdy">
-                            </div>
-                            <div class="work_text_box" data-aos="fade" data-aos-duration="1000">
-                                <p>대한민국 스트릿 패션 브랜드 널디의 홈페이지 반응형 리디자인 제작물 입니다.</p>
-                            </div>
-                        </div>
-                        <button class="nerdy_home_btn" data-aos="flip-down" data-aos-duration="1000">
-                            <a href="../NERDY/index.html" target="_blank">홈페이지</a>
-                        </button>
-                    </li>
-                    <li class="lafudge" data-aos="flip-down" data-aos-duration="500">
-                        <div class="work_lafudge_wrap">
-                            <p data-aos="fade" data-aos-duration="1000" data-aos-delay="200">Lafudge Store</p>
-                            <div class="lafudge_box" data-aos="fade" data-aos-duration="1000" data-aos-delay="500">
-                                <img src="https://github.com/simjsik/hackbo.github.io/assets/39624384/ad09c644-a6e9-4ddf-913d-bc92daa1bc92" alt="lafudge">
-                            </div>
-                            <div class="work_text_box" data-aos="fade" data-aos-duration="1000">
-                                <p>라퍼지스토어 브랜드의 반응형 홈페이지 제작물 입니다.</p>
-                            </div>
-                        </div>
-                        <button class="lafudge_home_btn" data-aos="flip-down" data-aos-duration="1000">
-                            <a href="../LafudgeStore/index.html" target="_blank">홈페이지</a>
-                        </button>
-                    </li>
-                    <li class="helpy" data-aos="flip-down" data-aos-duration="500">
-                        <div class="work_helpy_wrap">
-                            <p data-aos="fade" data-aos-duration="1000" data-aos-delay="200">HELPY - Web</p>
-                            <div class="helpy_box" data-aos="fade" data-aos-duration="1000" data-aos-delay="500">
-                                <img src="https://github.com/simjsik/hackbo.github.io/assets/39624384/2c878e68-8940-4127-9c72-845ccb5ec209" alt="helpyWeb">
-                            </div>
-                           <div class="work_text_box" data-aos="fade" data-aos-duration="1000">
-                                <p>개인 UI&UX 디자인 프로젝트의 홈페이지 제작물 입니다.</p>
-                           </div>
-                        </div>
-                        <button class="helpy_home_btn" data-aos="flip-down" data-aos-duration="1000">
-                            <a href="../helpy/index.html" target="_blank">
-                                홈페이지
-                            </a>
-                        </button>
-                    </li>
-                </ul>
-                <ul class="work_design_wrap">
-                    <li data-aos="fade-right" data-aos-duration="700">
-                        <p>02 WORK - DESIGN</p>
-                    </li>
-                    <li class="helpy2" data-aos="flip-down" data-aos-duration="500">
-                        <div class="work_helpy2_wrap">
-                            <p data-aos="fade" data-aos-duration="1000" data-aos-delay="200">HELPY - Design</p>
-                            <div class="helpy2_box" data-aos="fade" data-aos-duration="1000" data-aos-delay="500">
-                                <img src="https://github.com/simjsik/hackbo.github.io/assets/39624384/a86f6b88-3bfd-4abe-8772-c79022b75bba" alt="helpyDesign">
-                            </div>
-                           <div class="work_text_box" data-aos="fade" data-aos-duration="1000">
-                                <p>개인 UI&UX 디자인 프로젝트 입니다.</p>
-                           </div>
-                        </div>
-                        <button class="helpy2_detail_btn detail" data-aos="flip-down" data-aos-duration="1000">자세히보기</button>
-                    </li>
-                    <li class="travel" data-aos="flip-down" data-aos-duration="500">
-                        <div class="work_travel_wrap">
-                            <p data-aos="fade" data-aos-duration="1000" data-aos-delay="200">여행 패키지 프로모션</p>
-                            <div class="travel_wrap">
-                                <div class="travel_box" data-aos="fade" data-aos-duration="1000" data-aos-delay="500">
-                                    <img src="https://github.com/simjsik/hackbo.github.io/assets/39624384/e34868ce-c6b2-4a82-9baa-def89604af06" alt="북해도">
-                                </div>
-                                <div class="travel2_box">
-                                    <img src="https://github.com/simjsik/hackbo.github.io/assets/39624384/12618851-7ffd-4a0b-a4b1-974e4f90b1df" alt="동남아">
-                                </div>
-                            </div>
-                           <div class="work_text_box" data-aos="fade" data-aos-duration="1000">
-                                <p>롯데관광 북해도, 에어서울 동남아 여행 패키지 프로모션 디자인 입니다.</p>
-                           </div>
-                        </div>
-                        <button class="travel_home_btn detail" data-aos="flip-down" data-aos-duration="1000">롯데관광</button>
-                        <button class="travel2_home_btn detail" data-aos="flip-down" data-aos-duration="1000">에어서울</button>                        
-                    </li>
-                    <li class="bnk" data-aos="flip-down" data-aos-duration="500">
-                        <div class="work_bnk_wrap">
-                            <p data-aos="fade" data-aos-duration="1000" data-aos-delay="200">BNK 경남은행</p>
-                            <div class="bnk_box" data-aos="fade" data-aos-duration="1000" data-aos-delay="500">
-                                <img src="https://github.com/simjsik/hackbo.github.io/assets/39624384/32b59c09-9938-4218-a9e4-5ec3c0ea027e" alt="bnk">
-                            </div>
-                           <div class="work_text_box" data-aos="fade" data-aos-duration="1000">
-                                <p>BNK 경남은행 앱 리디자인 공모전 프로젝트 제작물 입니다.</p>
-                           </div>
-                        </div>
-                        <button class="bnk_detail_btn detail" data-aos="flip-down" data-aos-duration="1000">자세히보기</button>
-                    </li>
-                </ul>
-            </div>
-        </section>
-    </main>
-
-    <footer id="contact">
-        <h2>footer</h2>
-        <div class="footer_wrap">
-            <ul class="footer_cont">
-                <li data-aos="fade-right" data-aos-duration="700">
-                    <p>03 CONTACT</p>
-                </li>
-
-                <li class="phone" data-aos="fade" data-aos-duration="700" data-aos-delay="500">
-                    <div class="phn_box"></div>
-                    <p>010-8532-3126</p>
-                </li>
-                <li class="mail" data-aos="fade" data-aos-duration="700" data-aos-delay="500">
-                    <div class="mail_box"></div>
-                    <p>simjsik75@naver.com</p>
-                </li>
-
-                <li class="footer_bottom">
-                    <p>해당 홈페이지는 상업적 용도가 아닌 개인 포트폴리오 용으로 제작 되었습니다.</p>
-                    <b>ⓒ copyright Sim Hyeokbo. All Right Reserved</b>
-                </li>
-            </ul>
+          </div>
+          <!-- right -->
         </div>
-    </footer>
-    
-    <script src="js/three.min.js"></script>
-    <script src="js/projector.js"></script>
-    <script src="js/canvas-renderer.js"></script>
-    <script src="js/3d-lines-animation.js"></script>
-    <script src="js/jquery-3.6.1.min.js"></script>
-    <script src="js/script.js"></script>
-    <script src="js/color.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      </section>
+      <!-- section 1 end -->
 
+      <section id="Best">
+        <!-- <h2>Best</h2> -->
+        <div class="section2_wrap">
+          <h2 class="screen_out">Best Product</h2>
+          <div class="sec2_text">
+            <ul class="sec2_text_wrap">
+              <li>
+                <p>BEST</p>
+                <b>Best Product</b>
+                <i>시그니처 컬러로 더 널디하게<span class="mobile pc">. BE THE NERD, NERD PET</span></i>
+              </li>
+            </ul>
+          </div>
+          <div class="sec2_left">
+            <div class="sec2_yellow">
+              <img id="beThe_Yellow" src="img/sec2-1.jpg" alt="Yellow">
+            </div>
+            <div class="sec2_blue">
+              <img id="beThe_Blue" src="img/sec2-2.jpg" alt="Blue">
+            </div>
+            <div class="sec2_pink">
+              <img id="beThe_Pink" src="img/sec2-3.jpg" alt="Pink">
+            </div>
+
+            <div class="color_btn_wrap_sec2">
+              <button class="color_chn1">노랑</button>
+              <button class="color_chn2">파랑</button>
+              <button class="color_chn3">분홍</button>
+            </div>
+          </div>
+
+          <div class="sec2_right clearfix ">
+            <div class="sec2_slide_wrap">
+              <div class="sec2_slide_yellow mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <ul class="yellow_slide_wrap1 on">
+                      <li>
+                        <div class="proBox2_wrap">
+                          <div class="proBox2"><a href="#"><img src="img/Trackset1.png" alt="트랙세트노랑"></a></div>
+                        </div>
+                        <div class="pro2_text_wrap">
+                          <p>NY BLOCK TRACK SET</p>
+                          <a href="#"><i>엔와이 블락 트랙 세트</i></a>
+
+                          <span><a href="#">GO SHOP ></a></span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- Yellow 제품 1 -->
+
+                  <div class="swiper-slide">
+                    <ul class="yellow_slide_wrap2">
+                      <li>
+                        <div class="proBox2_wrap">
+                          <div class="proBox2">
+                            <a href="#"><img src="img/NYblockpettrack1.png" alt="펫트랙1"></a>
+                          </div>
+                        </div>
+                        <div class="pro2_text_wrap">
+                          <p>NY BLOCK PET TRACK</p>
+                          <a href="#"><i>엔와이 블락 펫 트랙</i></a>
+
+                          <span><a href="#">GO SHOP ></a></span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- Yellow 제품 2 -->
+
+                  <div class="swiper-slide">
+                    <ul class="yellow_slide_wrap3">
+                      <li>
+                        <div class="proBox2_wrap">
+                          <div class="proBox2"><a href="#"><img src="img/NYHALF.png" alt="반팔"></a></div>
+                        </div>
+                        <div class="pro2_text_wrap">
+                          <p>NY HAFL T-SHIRTS</p>
+                          <a href="#"><i>엔와이 반팔 티셔츠</i></a>
+
+                          <span><a href="#">GO SHOP ></a></span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- Yellow 제품 3 -->
+
+                  <div class="swiper-slide">
+                    <ul class="yellow_slide_wrap4">
+                      <li>
+                        <div class="proBox2_wrap">
+                          <div class="proBox2"><a href="#"><img src="img/Zelig_canvasHigh.png" alt="캔버스"></a></div>
+                        </div>
+                        <div class="pro2_text_wrap">
+                          <p>ZELIG CANVAS HIGH</p>
+                          <a href="#"><i>젤리그 캔버스 하이</i></a>
+
+                          <span><a href="#">GO SHOP ></a></span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- Yellow 제품 4 -->
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+              <!-- Yellow -->
+
+              <div class="sec2_slide_blue mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <ul class="blue_slide_wrap1">
+                      <li>
+                        <div class="proBox2_wrap">
+                          <div class="proBox2"><a href="#"><img src="img/Trackset2.png" alt="트랙세트파랑"></a></div>
+                        </div>
+                        <div class="pro2_text_wrap">
+                          <p>NY BLOCK TRACK SET</p>
+                          <a href="#"><i>엔와이 블락 트랙 세트</i></a>
+
+                          <span><a href="#">GO SHOP ></a></span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- Blue 제품 1 -->
+
+                  <div class="swiper-slide">
+                    <ul class="blue_slide_wrap2">
+                      <li>
+                        <div class="proBox2_wrap">
+                          <div class="proBox2"><a href="#"><img src="img/NYblockpettrack2.png" alt="펫트랙2"></a></div>
+                        </div>
+                        <div>
+                          <p>NY BLOCK PET TRACK</p>
+                          <a href="#"><i>엔와이 블락 펫 트랙</i></a>
+
+                          <span><a href="#">GO SHOP ></a></span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- Blue 제품 2 -->
+
+                  <div class="swiper-slide">
+                    <ul class="blue_slide_wrap3">
+                      <li>
+                        <div class="proBox2_wrap">
+                          <div class="proBox2"><a href="#"><img src="img/Bethenerdshopperbag.png" alt="쇼퍼백"></a></div>
+                        </div>
+                        <div>
+                          <p>B'THE NERD SHOPPER BAG</p>
+                          <a href="#"><i>비더널드 쇼퍼백</i></a>
+
+                          <span><a href="#">GO SHOP ></a></span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- Blue 제품 3 -->
+
+                  <div class="swiper-slide">
+                    <ul class="blue_slide_wrap4">
+                      <li>
+                        <div class="proBox2_wrap">
+                          <div class="proBox2"><a href="#"><img src="img/ZeligBoldLT.png" alt="운동화"></a></div>
+                        </div>
+                        <div>
+                          <p>ZELIG BOLD LT</p>
+                          <a href="#"><i>젤리그 볼드 LT</i></a>
+
+                          <span><a href="#">GO SHOP ></a></span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- Blue 제품 4 -->
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+              <!-- Blue -->
+
+              <div class="sec2_slide_pink mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <ul class="pink_slide_wrap1">
+                      <li>
+                        <div class="proBox2_wrap">
+                          <div class="proBox2"><a href="#"><img src="img/Trackset3.png" alt="트랙세트분홍"></a></div>
+                        </div>
+                        <div class="pro2_text_wrap">
+                          <p>NY BLOCK TRACK SET</p>
+                          <a href="#"><i>엔와이 블락 트랙 세트</i></a>
+
+                          <span><a href="#">GO SHOP ></a></span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- pink 제품 1 -->
+
+                  <div class="swiper-slide">
+                    <ul class="pink_slide_wrap2">
+                      <li>
+                        <div class="proBox2_wrap">
+                          <div class="proBox2"><a href="#"><img src="img/NYblockpettrack3.png" alt="펫트랙3"></a></div>
+                        </div>
+                        <div class="pro2_text_wrap">
+                          <p>NY BLOCK PET TRACK</p>
+                          <a href="#"><i>엔와이 블락 펫 트랙</i></a>
+
+                          <span><a href="#">GO SHOP ></a></span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- pink 제품 2 -->
+
+                  <div class="swiper-slide">
+                    <ul class="pink_slide_wrap3">
+                      <li>
+                        <div class="proBox2_wrap">
+                          <div class="proBox2"><a href="#"><img src="img/macaronplipplop1.png" alt="플립플랍"></a></div>
+                        </div>
+                        <div>
+                          <p>MACARON PLIP PLOP</p>
+                          <a href="#"><i>마카롱 플립 플랍</i></a>
+
+                          <span><a href="#">GO SHOP ></a></span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- pink 제품 3 -->
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+
+              </div>
+              <!-- pink -->
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+      <!-- section 2 end -->
+
+      <section id="Lookbook">
+        <div class="section3_wrap">
+          <h2 class="screen_out">Lookbook Slide</h2>
+          <div class="sec3_text_wrap">
+            <ul class="sec3_top">
+              <li>
+                <b>Identity of Nerdy</b>
+                <p><span>가장 나 답게, </span><span>New Contemporary Streetwear</span></p>
+              </li>
+            </ul>
+          </div>
+          <ul class="look_slide">
+            <li class="look_slide_wrap">
+              <div class="look_slick">
+                <div>
+                  <div>
+                    <img src="img/slideImg/slide1.jpg" alt="룩북1">
+                  </div>
+
+                  <div>
+                    <img src="img/slideImg/slide2.jpg" alt="룩북2">
+                  </div>
+
+                  <div>
+                    <img src="img/slideImg/slide3.jpg" alt="룩북3">
+                  </div>
+
+                  <div>
+                    <img src="img/slideImg/slide4.jpg" alt="룩북4">
+                  </div>
+
+                  <div>
+                    <img src="img/slideImg/slide5.jpg" alt="룩북5">
+                  </div>
+
+                  <div>
+                    <img src="img/slideImg/slide5-1.jpg" alt="룩북6
+                  ">
+                  </div>
+
+                  <div>
+                    <img src="img/slideImg/slide6.jpg" alt="룩북7">
+                  </div>
+
+                  <div>
+                    <img src="img/slideImg/slide7.jpg" alt="룩북8">
+                  </div>
+
+                  <div>
+                    <img src="img/slideImg/slide8.jpg" alt="룩북9">
+                  </div>
+
+                  <div>
+                    <img src="img/slideImg/slide9.jpg" alt="룩북10">
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- section 3 end -->
+
+      <section id="sns" class="mobile">
+        <div class="section4_wrap">
+          <h2 class="screen_out">SNS</h2>
+          <div class="sec4_text">
+            <ul class="sec4_text_wrap">
+              <li>
+                <p>Who is Nerdy?</p>
+              </li>
+            </ul>
+          </div>
+          <div class="sns_slide">
+            <div class="sns_slide_top">
+              <ul class="sns_img_top">
+
+                <li>
+                  <div class="sns1">
+                    <div class="sns_img1">
+                    </div>
+                    <div class="hover_box hover1">
+                      <a href="#"><img src="img/sns/insta1_face.png" alt="인스타썸네일"></a>
+                      <span>
+                        <a href="#">coco.midnight</a>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <!-- 1 -->
+
+                <li>
+                  <div class="sns2">
+                    <div class="sns_img2">
+                    </div>
+                    <div class="hover_box hover2">
+                      <a href="#"><img src="img/sns/insta2_face.png" alt="인스타썸네일"></a>
+                      <span>
+                        <a href="#">ye_rin_03_</a>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <!-- 2 -->
+
+                <li>
+                  <div class="sns3">
+                    <div class="sns_img3"></div>
+
+                    <div class="hover_box hover3">
+                      <a href="#"><img src="img/sns/insta3_face.png" alt="인스타썸네일3"></a>
+                      <span>
+                        <a href="#">mori.u</a>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <!-- 3 -->
+
+                <li>
+                  <div class="sns4">
+                    <div class="sns_img4"></div>
+
+                    <div class="hover_box hover4">
+                      <a href="#"><img src="img/sns/insta4_face.png" alt="인스타썸네일4"></a>
+                      <span>
+                        <a href="#">muffinzzang</a>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <!-- 4 -->
+
+                <li>
+                  <div class="sns5">
+                    <div class="sns_img5"></div>
+
+                    <div class="hover_box hover5">
+                      <a href="#"><img src="img/sns/insta4_face.png" alt="인스타썸네일5"></a>
+                      <span>
+                        <a href="#">nerdyofficial</a>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <!-- 5 -->
+
+              </ul>
+            </div>
+
+            <!-- top -->
+
+            <div class="sns_slide_bottom">
+              <ul class="sns_img_bottom">
+                <li>
+                  <div class="sns6">
+                    <div class="sns_img6"></div>
+                    <div class="hover_box hover6">
+                      <a href="#"><img src="img/sns/insta1_face.png" alt="인스타썸네일"></a>
+                      <span>
+                        <a href="#">coco.midnight</a>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <!-- 1 -->
+
+                <li>
+                  <div class="sns7">
+                    <div class="sns_img7"></div>
+                    <div class="hover_box hover7">
+                      <a href="#"><img src="img/sns/insta2_face.png" alt="인스타썸네일2"></a>
+                      <span>
+                        <a href="#">ye_rin_03_</a>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <!-- 2 -->
+
+                <li>
+                  <div class="sns8">
+                    <div class="sns_img8"></div>
+                    <div class="hover_box hover8">
+                      <a href="#"><img src="img/sns/insta3_face.png" alt="인스타썸네일3"></a>
+                      <span>
+                        <a href="#">mori.u</a>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <!-- 3 -->
+
+                <li>
+                  <div class="sns9">
+                    <div class="sns_img9"></div>
+                    <div class="hover_box hover9">
+                      <a href="#">
+                        <img src="img/sns/insta4_face.png" alt="인스타썸네일4">
+                      </a>
+                      <span>
+                        <a href="#">muffinzzang</a>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <!-- 4 -->
+
+                <li>
+                  <div class="sns10">
+                    <div class="sns_img10"></div>
+                    <div class="hover_box hover10">
+                      <a href="#"><img src="img/sns/insta4_face.png" alt="인스타썸네일5"></a>
+                      <span>
+                        <a href="#">nerdyofficial</a>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <!-- 5 -->
+
+              </ul>
+            </div>
+            <!-- bottom -->
+          </div>
+        </div>
+        <!-- sns_slide -->
+      </section>
+      <!-- section 4 end -->
+    </div>
+    <!-- section -->
+  </main>
+  <footer>
+    <div class="footer_wrap">
+      <div class="footer_left">
+        <h2 class="screen_out">Footer</h2>
+
+        <ul class="footer_left_wrap">
+          <li><img src="img/Nerdy_black.png" alt="Nerdy"></li>
+
+          <li>
+            <div class="footer_right">
+              <ul class="footer_right_wrap">
+                <li>
+                  <div class="foo_customer">
+                    <b>Customer Center</b>
+                    <div class="customer_box">
+                      <p>1544-2083</p>
+                      <i>MON - FRI 09:00 - 18:00</i>
+                      <i>LUNCH 12:00 - 13:30</i>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="foo_order">
+                    <b>Order Tracking</b>
+                    <div class="order_box">
+                      <a href="#">주문내역</a>
+                      <a href="#">배송조회</a>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="foo_contact">
+                    <b>Contact Us</b>
+                    <div class="contact_box">
+                      <span class="pc tablet">
+                        <a href="#">PARTNERSHIP</a> | <a href="#">COLLABORATION</a> | <a href="#">SPONSORSHIP</a>
+                      </span>
+                      <span class="1920">
+                        <a href="#">도매/제휴문의</a>
+                        <a href="#">해외수출문의</a>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+          </li>
+
+
+
+          <li>
+            <div class="foo_help">
+              <ul>
+                <li>
+                  <b><a href="#">HELP</a> | <a href="#">AGREEMENT</a> | <a href="#">PRIVACY POLICY</a></b>
+                </li>
+              </ul>
+            </div>
+            <!-- <div class="info_btn">
+              <li>
+                <button type="button">사업자 정보 확인</button>
+              </li>
+            </div> -->
+            <div class="foo_info">
+              <ul>
+                <li>
+                  <p>COMPANY : APR Co., LTD. CEO : BYUNGHOON KIM</p>
+                </li>
+                <li>
+                  <p>(05551) 04-12, 36th floor, 300. Olympic-ro, songpa-gu, Seoul, Republic of Korea</p>
+                </li>
+                <li>
+                  <p>Business Registartion No : 220-88-89441 <a href="#" class="mobile"><b>[사업자정보확인]</b></a></p>
+                </li>
+                <li>
+                  <p>E-commerce Permit Registration No : 2020-SeoulSongpa-1274</p>
+                </li>
+                <li>
+                  <p>Personal Information Manager : JEONG JAEHUN</p>
+                </li>
+              </ul>
+            </div>
+            <div class="foo_copy">
+              <ul>
+                <li>
+                  <p class="copy">COPYRIGHT ⓒ NERDY ALL RIGHTS RESERVED. HOSTED BY CAFE24</p>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="foo_sns_wrap">
+        <ul>
+          <li>
+            <div class="foo_sns">
+              <b class="mobile">SNS</b>
+              <div class="sns_box">
+                <a href="#" target="_blank"><img src="img/youtube.png" alt="유튜브이동"></a>
+                <a href="#" target="_blank"><img src="img/facebook.png" alt="페이스북이동"></a>
+                <a href="#" target="_blank"><img src="img/Instargram.png" alt="인스타그램이동"></a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="foo_btn">
+        <ul class="foo_btn_wrap">
+          <li>
+            <div class="talk_btn">
+              <button></button>
+            </div>
+          </li>
+          <li>
+            <div class="foo_top_btn">
+              <button>
+              </button>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="js/jquery-3.6.1.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
+
 </html>
