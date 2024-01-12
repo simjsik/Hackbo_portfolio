@@ -328,6 +328,10 @@ header {
   border-bottom: 1px solid black;
 }
 
+.visual{
+  height: 1020px;
+  overflow: hidden;
+}
 .visual_wrap {
   /* overflow-y: hidden;
   overflow-x: scroll; */
@@ -5187,9 +5191,12 @@ footer .copy {
   .header_top {}
 
 
-  video {
+  video,
+  iframe {
     position: relative;
     width: 100%;
+    height: 1070px;
+
     min-width: 1024px;
     z-index: -1;
   }
