@@ -314,7 +314,7 @@
 
 
 .about_sec3_box {
-  margin-top: 50px;
+  margin-top: 0px;
   color: white;
   text-align: center;
 }
@@ -1051,7 +1051,7 @@
   }
 
   .about_sec3_box {
-    margin-top: 500px;
+    margin-top: 320px;
     /* background: red; */
   }
 
