@@ -1,6 +1,11 @@
+@charset "utf-8";
+
+
+
 /* mobile 375 */
 body{
   overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
 }
 h2{
   position: absolute;
@@ -50,7 +55,7 @@ h2{
 }
 
 .backgro {
-  background: url('../img/backgroundWhite.jpg');
+  background: url('https://github.com/simjsik/hackbo.github.io/assets/39624384/e6c3c12d-0471-4194-8578-6a8db62db85c');
   width: 100%;
   height: 1024px;
   position: fixed;
@@ -146,6 +151,7 @@ header {
 }
 
 .nav_inner_wrap .home {
+  font-family: 'Roboto-light', sans-serif;
   font-weight: bold;
 }
 
@@ -195,7 +201,9 @@ header {
 .nav_inner_wrap .about,
 .showcase,
 .allSale {
+  font-family: 'Roboto', sans-serif;
   font-size: 32px;
+  font-weight: 300;
 }
 
 
@@ -329,7 +337,7 @@ header {
   position: relative;
   width: 100%;
   height: 820px;
-  background: url("../img/mobile_view2.jpg");
+  background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/78071a82-e271-492d-9700-8fc1ffcddb97");
   background-repeat: no-repeat;
   z-index: -1;
 
@@ -349,13 +357,15 @@ header {
   position: absolute;
   left: 30px;
   font-size: 40px;
-  font-weight: bold;
+  font-family: 'Noto sans KR', sans-serif;
+  font-weight: 500;
   color: white;
-
 }
 
 .visual_text i,
 .visual_text b {
+  font-family: 'Noto sans KR', sans-serif;
+  font-weight: 300;
   font-size: 20px;
   color: white;
 }
@@ -366,12 +376,10 @@ header {
   top: 70px;
   left: 30px;
   font-style: normal;
-  font-weight: 400;
 }
 
 .visual_text b {
   top: 110px;
-  font-weight: 100;
 }
 
 
@@ -492,6 +500,7 @@ header {
   margin-top: 50px;
   margin-right: 30px;
   font-size: 16px;
+  font-weight: 500;
   /* background: red; */
   transition-delay: 0s;
 }
@@ -506,8 +515,9 @@ header {
 
 .sec1_text_fixed i {
   margin-top: 150px;
-  margin-right: -230px;
+  margin-right: -222px;
   font-size: 20px;
+  font-weight: 300;
   font-style: normal;
   transition-delay: 1s;
 }
@@ -599,6 +609,8 @@ header {
 .sec1_pro_text_box1 p,
 .sec1_pro_text_box2 p,
 .sec1_pro_text_box3 p {
+  font-family: 'Noto sans KR', sans-serif;
+  font-weight: 300;
   margin-top: 8px;
   font-size: 14px;
   font-weight: bold;
@@ -639,6 +651,7 @@ header {
   margin-top: 40px;
   font-size: 12px;
   font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   text-align: center;
 }
 
@@ -646,6 +659,7 @@ header {
   margin-top: 40px;
   font-size: 12px;
   font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   text-align: center;
 }
 
@@ -653,6 +667,7 @@ header {
   margin-top: 40px;
   font-size: 12px;
   font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   text-align: center;
 }
 
@@ -661,7 +676,7 @@ header {
 .sec1_product3 i {
   display: block;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 500;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   text-align: center;
@@ -676,6 +691,7 @@ header {
   text-align: center;
   display: block;
   text-decoration: underline;
+  font-weight: 300;
 }
 
 
@@ -821,6 +837,7 @@ header {
 
 .sec2_text p {
   font-size: 16px;
+  font-weight: 500;
   text-align: right;
   margin-right: 30px;
   padding-top: 50px;
@@ -837,6 +854,8 @@ header {
 .sec2_text i {
   display: block;
   text-align: right;
+  font-family: 'Noto sans KR', sans-serif;
+  font-weight: 300;
   font-size: 20px;
   font-style: normal;
   margin-right: 30px;
@@ -872,17 +891,20 @@ header {
 
 .sec2_slide_yellow p {
   font-size: 12px;
+  font-weight: 300;
 }
 
 .sec2_slide_yellow i {
+  font-family: 'Noto sans KR', sans-serif;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 700;
   font-style: normal;
 }
 
 .sec2_slide_yellow span {
   font-size: 14px;
   text-decoration: underline;
+  font-weight: 300;
 }
 
 .yellow_slide_wrap1 {
@@ -995,15 +1017,18 @@ header {
 
 .sec2_slide_blue p {
   font-size: 12px;
+  font-weight: 300;
 }
 
 .sec2_slide_blue i {
   font-size: 20px;
-  font-weight: bold;
+  font-family: 'Noto sans KR', sans-serif;
+  font-weight: 700;
   font-style: normal;
 }
 
 .sec2_slide_blue span {
+  font-weight: 300;
   font-size: 14px;
   text-decoration: underline;
 }
@@ -1117,16 +1142,19 @@ header {
 /*  blue */
 
 .sec2_slide_pink p {
+  font-weight: 300;
   font-size: 12px;
 }
 
 .sec2_slide_pink i {
+  font-family: 'Noto sans KR', sans-serif;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 700;
   font-style: normal;
 }
 
 .sec2_slide_pink span {
+  font-weight: 300;
   font-size: 14px;
   text-decoration: underline;
 }
@@ -1312,6 +1340,7 @@ header {
 }
 
 .sec3_top p {
+  font-weight: 300;
   font-size: 18px;
   text-align: center;
   margin-top: 10px;
@@ -1505,7 +1534,7 @@ footer .copy {
   display: block;
   font-family: 'Noto Sans KR', sans-serif;
   color: #191919;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .foo_contact {
@@ -1556,7 +1585,7 @@ footer .copy {
   height: 36px;
   border-radius: 50%;
   background: gold;
-  background-image: url("../img/kakaotalk.png");
+  background-image: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/aaa3b0c7-9c43-48d9-957f-043c987cc4d6");
   background-size: cover;
   background-repeat: no-repeat;
   cursor: pointer;
@@ -1579,7 +1608,7 @@ footer .copy {
   right: 30px;
   bottom: 40px;
 
-  background-image: url("../img/Top.jpg");
+  background-image: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/c2aa5064-f519-44e2-832a-5bf922cbbd59");
   background-size: cover;
 }
 
@@ -1856,7 +1885,7 @@ footer .copy {
     top: 70px;
     left: 30px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
   }
 
   .visual_text b {
@@ -3030,43 +3059,43 @@ footer .copy {
   }
 
   .sns_img1 {
-    background: url("../img/sns/instaTop1.jpg") no-repeat center;
+    background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/699243ee-dda0-4b94-a6fc-5a9b1672aa0b") no-repeat center;
   }
 
   .sns_img2 {
-    background: url("../img/sns/instaTop2.jpg") no-repeat center;
+    background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/8ec25ed8-7d06-4fb8-9dbe-d4c0b9438bd0") no-repeat center;
   }
 
   .sns_img3 {
-    background: url("../img/sns/instaTop3.jpg") no-repeat center;
+    background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/816affa8-532e-48e4-a177-1cae8cb4d7d2") no-repeat center;
   }
 
   .sns_img4 {
-    background: url("../img/sns/instaTop4.jpg") no-repeat center;
+    background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/1daa7613-215a-45b7-8872-bd989d7b6afc") no-repeat center;
   }
 
   .sns_img5 {
-    background: url("../img/sns/instaTop5.jpg") no-repeat center;
+    background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/5e215bb8-cc1d-451d-b175-d6603fe27f7a") no-repeat center;
   }
 
   .sns_img6 {
-    background: url("../img/sns/instaBot1.jpg") no-repeat center;
+    background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/09e5285d-e758-4366-9755-4a6958cdd3f1") no-repeat center;
   }
 
   .sns_img7 {
-    background: url("../img/sns/instaBot2.jpg") no-repeat center;
+    background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/fe73ed13-1fae-414d-9029-fd6c5c33ec3e") no-repeat center;
   }
 
   .sns_img8 {
-    background: url("../img/sns/instaBot3.jpg") no-repeat center;
+    background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/436da044-211e-447a-9116-abdb5966b87b") no-repeat center;
   }
 
   .sns_img9 {
-    background: url("../img/sns/instaBot4.jpg") no-repeat center;
+    background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/580fd2e4-a58f-413f-bf1d-479a04bb7b0b") no-repeat center;
   }
 
   .sns_img10 {
-    background: url("../img/sns/instaBot5.jpg") no-repeat center;
+    background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/12e90635-835e-4ea6-b1a3-224441d039e9") no-repeat center;
   }
 
   /* sns */
@@ -3252,7 +3281,7 @@ footer .copy {
     height: 50px;
     border-radius: 50%;
     background: gold;
-    background-image: url("../img/kakaotalk.png");
+    background-image: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/aaa3b0c7-9c43-48d9-957f-043c987cc4d6");
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -3275,7 +3304,7 @@ footer .copy {
     right: 30px;
     bottom: 50px;
 
-    background-image: url("../img/Top.jpg");
+    background-image: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/c2aa5064-f519-44e2-832a-5bf922cbbd59");
     background-size: cover;
   }
 
@@ -3571,13 +3600,13 @@ footer .copy {
     top: 70px;
     left: 30px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
   }
 
   .visual_text b {
     top: 70px;
     left: 300px;
-    font-weight: 100;
+    font-weight: 300;
   }
 
   .scroll_btn {
@@ -4849,43 +4878,43 @@ footer .copy {
   }
 
   .sns_img1 {
-    background: url("../img/sns/instaTop1.jpg") no-repeat center;
+    background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/699243ee-dda0-4b94-a6fc-5a9b1672aa0b") no-repeat center;
   }
 
   .sns_img2 {
-    background: url("../img/sns/instaTop2.jpg") no-repeat center;
+    background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/8ec25ed8-7d06-4fb8-9dbe-d4c0b9438bd0") no-repeat center;
   }
 
   .sns_img3 {
-    background: url("../img/sns/instaTop3.jpg") no-repeat center;
+    background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/816affa8-532e-48e4-a177-1cae8cb4d7d2") no-repeat center;
   }
 
   .sns_img4 {
-    background: url("../img/sns/instaTop4.jpg") no-repeat center;
+    background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/1daa7613-215a-45b7-8872-bd989d7b6afc") no-repeat center;
   }
 
   .sns_img5 {
-    background: url("../img/sns/instaTop5.jpg") no-repeat center;
+    background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/5e215bb8-cc1d-451d-b175-d6603fe27f7a") no-repeat center;
   }
 
   .sns_img6 {
-    background: url("../img/sns/instaBot1.jpg") no-repeat center;
+    background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/09e5285d-e758-4366-9755-4a6958cdd3f1") no-repeat center;
   }
 
   .sns_img7 {
-    background: url("../img/sns/instaBot2.jpg") no-repeat center;
+    background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/fe73ed13-1fae-414d-9029-fd6c5c33ec3e") no-repeat center;
   }
 
   .sns_img8 {
-    background: url("../img/sns/instaBot3.jpg") no-repeat center;
+    background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/436da044-211e-447a-9116-abdb5966b87b") no-repeat center;
   }
 
   .sns_img9 {
-    background: url("../img/sns/instaBot4.jpg") no-repeat center;
+    background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/580fd2e4-a58f-413f-bf1d-479a04bb7b0b") no-repeat center;
   }
 
   .sns_img10 {
-    background: url("../img/sns/instaBot5.jpg") no-repeat center;
+    background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/12e90635-835e-4ea6-b1a3-224441d039e9") no-repeat center;
   }
 
   /* sns */
@@ -5062,7 +5091,7 @@ footer .copy {
     height: 50px;
     border-radius: 50%;
     background: gold;
-    background-image: url("../img/kakaotalk.png");
+    background-image: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/aaa3b0c7-9c43-48d9-957f-043c987cc4d6");
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -5085,7 +5114,7 @@ footer .copy {
     right: 30px;
     bottom: 60px;
 
-    background-image: url("../img/Top.jpg");
+    background-image: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/c2aa5064-f519-44e2-832a-5bf922cbbd59");
     background-size: cover;
   }
 
@@ -6578,43 +6607,43 @@ footer .copy {
   }
 
   .sns_img1 {
-    background: url("../img/sns/instaTop1.jpg") no-repeat center;
+    background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/699243ee-dda0-4b94-a6fc-5a9b1672aa0b") no-repeat center;
   }
 
   .sns_img2 {
-    background: url("../img/sns/instaTop2.jpg") no-repeat center;
+    background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/8ec25ed8-7d06-4fb8-9dbe-d4c0b9438bd0") no-repeat center;
   }
 
   .sns_img3 {
-    background: url("../img/sns/instaTop3.jpg") no-repeat center;
+    background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/816affa8-532e-48e4-a177-1cae8cb4d7d2") no-repeat center;
   }
 
   .sns_img4 {
-    background: url("../img/sns/instaTop4.jpg") no-repeat center;
+    background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/1daa7613-215a-45b7-8872-bd989d7b6afc") no-repeat center;
   }
 
   .sns_img5 {
-    background: url("../img/sns/instaTop5.jpg") no-repeat center;
+    background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/5e215bb8-cc1d-451d-b175-d6603fe27f7a") no-repeat center;
   }
 
   .sns_img6 {
-    background: url("../img/sns/instaBot1.jpg") no-repeat center;
+    background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/09e5285d-e758-4366-9755-4a6958cdd3f1") no-repeat center;
   }
 
   .sns_img7 {
-    background: url("../img/sns/instaBot2.jpg") no-repeat center;
+    background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/fe73ed13-1fae-414d-9029-fd6c5c33ec3e") no-repeat center;
   }
 
   .sns_img8 {
-    background: url("../img/sns/instaBot3.jpg") no-repeat center;
+    background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/436da044-211e-447a-9116-abdb5966b87b") no-repeat center;
   }
 
   .sns_img9 {
-    background: url("../img/sns/instaBot4.jpg") no-repeat center;
+    background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/580fd2e4-a58f-413f-bf1d-479a04bb7b0b") no-repeat center;
   }
 
   .sns_img10 {
-    background: url("../img/sns/instaBot5.jpg") no-repeat center;
+    background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/12e90635-835e-4ea6-b1a3-224441d039e9") no-repeat center;
   }
 
   /* sns */
@@ -6790,7 +6819,7 @@ footer .copy {
     height: 60px;
     border-radius: 50%;
     background: gold;
-    background-image: url("../img/kakaotalk.png");
+    background-image: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/aaa3b0c7-9c43-48d9-957f-043c987cc4d6");
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -6813,7 +6842,7 @@ footer .copy {
     right: 60px;
     bottom: 60px;
 
-    background-image: url("../img/Top.jpg");
+    background-image: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/c2aa5064-f519-44e2-832a-5bf922cbbd59");
     background-size: cover;
   }
 

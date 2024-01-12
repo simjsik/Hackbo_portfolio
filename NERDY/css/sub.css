@@ -106,7 +106,7 @@
 .fixed_back {
   position: fixed;
   top: 0px;
-  background: url("../img/sub/backgroundBlack.jpg");
+  background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/b6f7f826-374e-423f-95f5-70df330f8688");
   width: 100%;
   height: 100%;
   z-index: -3;
@@ -118,7 +118,7 @@
 }
 
 .about_visual_img {
-  background: url("../img/sub/768_top.jpg") no-repeat center;
+  background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/3d2f54b3-8c32-48e1-a052-dc82b2a54127") no-repeat center;
   display: block;
   width: 100%;
   max-width: 1024px;
@@ -146,13 +146,13 @@
 
 .about_visual_text p {
   font-size: 40px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .about_visual_text i {
   display: block;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   margin-top: 20px;
 }
@@ -166,7 +166,7 @@
   display: block;
   margin-top: 15px;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .about_visual_text b span {
@@ -197,24 +197,24 @@
 }
 
 .about_sec1_imgbox .about_img1 {
-  background: blue url("../img/sub/img_box1.jpg") no-repeat center;
+  background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/5bfdd162-eff4-4d2b-8fda-a8b5dfe80433") no-repeat center;
   background-size: cover;
 }
 
 .about_sec1_imgbox .about_img2 {
 
-  background: rgb(0, 255, 81) url("../img/sub/img_box2.jpg") no-repeat center;
+  background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/ce07da85-b930-41c5-8095-c0ddba70b87c") no-repeat center;
   background-size: cover;
 }
 
 .about_sec1_imgbox .about_img3 {
 
-  background: rgb(255, 200, 0) url("../img/sub/img_box3.jpg") no-repeat center;
+  background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/48e5b76f-5568-4ab3-b04f-983fb9b689ee") no-repeat center;
   background-size: cover;
 }
 
 .about_sec1_imgbox .about_img4 {
-  background: rgb(255, 0, 149) url("../img/sub/img_box4.jpg") no-repeat center;
+  background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/a458ad1a-9e71-4dd6-8ab5-3728b37ca29b") no-repeat center;
   background-size: cover;
 }
 
@@ -239,7 +239,7 @@
 
 .about_sec2_text_box i {
   font-size: 40px;
-  font-weight: bold;
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -248,7 +248,7 @@
   margin-top: 30px;
   display: block;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
 }
 
@@ -347,28 +347,28 @@
 
 .about_sec3_img_box .color_img_wrap {
   position: relative;
-  background: url("../img/sub/Color.jpg") no-repeat center top;
+  background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/6b1ac339-6fe9-4c02-bf7b-727670ea593b") no-repeat center top;
   background-size: cover;
   margin-top: 20px;
 }
 
 .about_sec3_img_box .detail_img_wrap {
   position: relative;
-  background: url("../img/sub/Detail.jpg") no-repeat center top;
+  background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/fa1a6bbc-ab2d-41a6-ab29-183ac9d2ee7f") no-repeat center top;
   background-size: cover;
   margin-top: 20px;
 }
 
 .about_sec3_img_box .fit_img_wrap {
   position: relative;
-  background: url("../img/sub/Fit.jpg") no-repeat center top;
+  background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/0f33c2cc-76b3-4a94-b83d-b45de6357483") no-repeat center top;
   background-size: cover;
   margin-top: 20px;
 }
 
 .about_sec3_img_box .streak_img_wrap {
   position: relative;
-  background: url("../img/sub/streak.jpg") no-repeat center top;
+  background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/804c7991-6bda-4867-b4a3-3513f3856218") no-repeat center top;
   background-size: cover;
   margin-top: 20px;
 }
@@ -391,7 +391,7 @@
 .color_img_wrap .text_box b {
   font-size: 16px;
   margin-bottom: 10px;
-  font-weight: 400;
+  font-weight: 300;
 
 }
 
@@ -427,7 +427,7 @@
 .detail_img_wrap .text_box b {
   font-size: 16px;
   margin-bottom: 10px;
-  font-weight: 400;
+  font-weight: 300;
 
 }
 
@@ -451,7 +451,7 @@
 .fit_img_wrap .text_box b {
   font-size: 16px;
   margin-bottom: 10px;
-  font-weight: 400;
+  font-weight: 300;
 
 }
 
@@ -475,7 +475,7 @@
 .streak_img_wrap .text_box b {
   font-size: 16px;
   margin-bottom: 10px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 
@@ -561,7 +561,7 @@
     margin-top: 24px;
     display: block;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
   }
 
@@ -673,14 +673,14 @@
   .streak_img_wrap .text_box p {
     display: block;
     font-size: 36px;
-    font-weight: bold;
+    font-weight: 700;
     margin-bottom: 24px;
   }
 
   .detail_img_wrap .text_box i {
     display: block;
     font-size: 36px;
-    font-weight: bold;
+    font-weight: 700;
     margin-bottom: 20px;
     font-style: normal;
   }
@@ -691,7 +691,7 @@
   .streak_img_wrap .text_box b {
     font-size: 18px;
     margin-bottom: 10px;
-    font-weight: 400;
+    font-weight: 300;
 
   }
 
@@ -732,7 +732,7 @@
   }
 
   .about_visual_img {
-    background: url("../img/sub/sub_back.jpg") no-repeat center;
+    background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/98fa992b-15d7-4ffc-8407-a681960f3d75") no-repeat center;
     background-size: cover;
     width: 100%;
     max-width: 1920px;
@@ -799,7 +799,7 @@
     margin-top: 15px;
     display: block;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
   }
 
@@ -902,14 +902,14 @@
   .streak_img_wrap .text_box p {
     display: block;
     font-size: 42px;
-    font-weight: bold;
+    font-weight: 700;
     margin-bottom: 30px;
   }
 
   .detail_img_wrap .text_box i {
     display: block;
     font-size: 42px;
-    font-weight: bold;
+    font-weight: 700;
     margin-bottom: 30px;
     font-style: normal;
   }
@@ -920,7 +920,7 @@
   .streak_img_wrap .text_box b {
     font-size: 22px;
     margin-bottom: 10px;
-    font-weight: 400;
+    font-weight: 300;
 
   }
 
@@ -960,7 +960,7 @@
   }
 
   .about_visual_img {
-    background: url("../img/sub/sub_back.jpg") no-repeat center;
+    background: url("https://github.com/simjsik/hackbo.github.io/assets/39624384/98fa992b-15d7-4ffc-8407-a681960f3d75") no-repeat center;
     background-size: cover;
     width: 100%;
     max-width: 1920px;
@@ -1026,7 +1026,7 @@
     margin-top: 15px;
     display: block;
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
   }
 
@@ -1134,14 +1134,14 @@
   .streak_img_wrap .text_box p {
     display: block;
     font-size: 42px;
-    font-weight: bold;
+    font-weight: 700;
     margin-bottom: 30px;
   }
 
   .detail_img_wrap .text_box i {
     display: block;
     font-size: 42px;
-    font-weight: bold;
+    font-weight: 700;
     margin-bottom: 30px;
     font-style: normal;
   }
@@ -1152,7 +1152,7 @@
   .streak_img_wrap .text_box b {
     font-size: 18px;
     margin-bottom: 10px;
-    font-weight: 400;
+    font-weight: 300;
 
   }
 
