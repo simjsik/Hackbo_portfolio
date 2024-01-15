@@ -14,7 +14,8 @@
 ![phoneIcon](https://github.com/simjsik/hackbo.github.io/assets/39624384/6a5abece-aecf-46d6-8282-afb4b8b7b55c)
 
 
-NERDY
+--------NERDY
+
 logo
 ![Nerdy_white](https://github.com/simjsik/hackbo.github.io/assets/39624384/7075a5d3-014d-4981-8bdd-c276cdda2e15)
 ![Nerdy_black](https://github.com/simjsik/hackbo.github.io/assets/39624384/7424c25c-917e-4624-9608-fb2582a241a6)
@@ -138,7 +139,7 @@ logo
 
 
 
--Lafudge Store
+------Lafudge Store
 ![shop_sub9](https://github.com/simjsik/hackbo.github.io/assets/39624384/bea21fcc-e69b-4103-b16a-400fa79fb423)
 ![shop_sub8](https://github.com/simjsik/hackbo.github.io/assets/39624384/89d0666d-81ba-4505-8bdd-c69a4f3b2c86)
 ![shop_sub7](https://github.com/simjsik/hackbo.github.io/assets/39624384/bd5ab6da-b28f-49de-bc4f-90d9d0ee4a53)
@@ -165,3 +166,31 @@ logo
 ![main1](https://github.com/simjsik/hackbo.github.io/assets/39624384/cc956a5f-3fa8-4fa0-8f3c-efb683687e9e)
 ![logo](https://github.com/simjsik/hackbo.github.io/assets/39624384/afbcfde0-ad06-4e8b-8f5b-4dd747c8a5a8)
 
+
+
+
+
+
+-------- Helpy
+![rutineCase](https://github.com/simjsik/hackbo.github.io/assets/39624384/22388c67-cb25-4a9d-8dd0-bdaf3f7a4c3a)
+![Helpy](https://github.com/simjsik/hackbo.github.io/assets/39624384/1e980ae3-f20b-4268-aaf2-5c748dc0bfae)
+
+![fooImg](https://github.com/simjsik/hackbo.github.io/assets/39624384/bcc93e1a-7752-4c2a-8c80-98d95ab0ac62)
+![count](https://github.com/simjsik/hackbo.github.io/assets/39624384/ea5e0317-fd35-4ba5-a4f3-2b0b0c6db55b)
+![balnace](https://github.com/simjsik/hackbo.github.io/assets/39624384/7b1a02b7-e2fc-4389-848c-98a0f14eee67)
+![30mst](https://github.com/simjsik/hackbo.github.io/assets/39624384/07490fe9-4692-4ddd-952a-421cb7e2e1fa)
+![24mst](https://github.com/simjsik/hackbo.github.io/assets/39624384/cf266a54-c6e5-4b56-8424-44cf78e5edb4)
+![18mst](https://github.com/simjsik/hackbo.github.io/assets/39624384/6beadb48-bb8a-4c4d-af93-7d850f89e8bf)
+![12mst](https://github.com/simjsik/hackbo.github.io/assets/39624384/dac0f828-3cca-4e32-a8bf-9803e0fed09b)
+![visualPh](https://github.com/simjsik/hackbo.github.io/assets/39624384/63f7832b-84a0-4950-beed-7a8f24003a3d)
+![visualBg](https://github.com/simjsik/hackbo.github.io/assets/39624384/fc55c810-a79d-4d28-a7ce-14fcb4a54857)
+![routineScl](https://github.com/simjsik/hackbo.github.io/assets/39624384/81dbaec8-45a4-4d45-bbf7-db284749a4e1)
+![routineAi](https://github.com/simjsik/hackbo.github.io/assets/39624384/02edfa8b-8fba-4cc4-9eed-2b5243053e8e)
+![phoneSha](https://github.com/simjsik/hackbo.github.io/assets/39624384/fb2e23cf-deba-4798-a839-1011b3b0848c)
+![hmimg2-1](https://github.com/simjsik/hackbo.github.io/assets/39624384/505f772c-149c-4609-8da6-5efafc0d2996)
+![hmimg1-1](https://github.com/simjsik/hackbo.github.io/assets/39624384/07a65237-1a53-4e95-8156-44ea9cb2f394)
+![HelpyP](https://github.com/simjsik/hackbo.github.io/assets/39624384/4f279344-dae6-4a71-aeb9-232604e2d797)
+![guideMc3](https://github.com/simjsik/hackbo.github.io/assets/39624384/0a078011-867a-4ac6-a7ca-c60a717c1f84)
+![guideMc2](https://github.com/simjsik/hackbo.github.io/assets/39624384/145378aa-7980-43d2-90a6-85e1e77fbe2b)
+![guideMc1](https://github.com/simjsik/hackbo.github.io/assets/39624384/a4f0ea11-fa65-4d01-bdf4-298fd731a0b1)
+![guide](https://github.com/simjsik/hackbo.github.io/assets/39624384/92e787b1-2740-4e83-a6cb-61d67847ad46)
