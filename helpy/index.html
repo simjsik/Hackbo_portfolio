@@ -3,382 +3,317 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2023 SIM HYEOK BO :: PORTFOLIO</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css" />
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap">
-    <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
+    <title>헬피</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
 </head>
 <body>
     <header>
-        <div class="header_wrap">
-            <nav>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                        <defs>
-                            <style>
-                                .cls-1,.cls-2{fill:none;}.cls-2{stroke:#9e9e9e;stroke-miterlimit:10;}
-                            </style>
-                        </defs>
-                        <g id="레이어_2" data-name="레이어 2">
-                            <g id="레이어_1-2" data-name="레이어 1">
-                                <rect class="cls-1" width="20" height="20"/>
-                                <line class="cls-2" y1="5.27" x2="20" y2="5.27"/>
-                                <line class="cls-2" y1="10" x2="20" y2="10"/>
-                                <line class="cls-2" y1="14.73" x2="20" y2="14.73"/>
-                            </g>
-                        </g>
-                    </svg>
-                <ul class="nav_wrap">
-                    <li>
-                        <button class="view_profile">
-                            <p>PROFILE</p>
-                        </button>
-                    </li>
-                    <li>
-                        <button class="view_work">         
-                            <p>WORK</p>
-                    </li>
-                    <li>
-                        <button class="view_contact">       
-                            <p>CONTACT</p>
-                            </button>
-                    </li>
-                </ul>
-            </nav>
-            <!-- 내비게이션 -->
-            <div class="mb_top_btn">
-                <button class="top_btn">
-                    <p>TOP</p>
-                </button>
-            </div>
+        <div class="headerBox">
+            <h1 class="logoBox">
+                <a href="#"><img src="./img/Helpy.svg" alt="Logo"></a>
+            </h1>
         </div>
     </header>
-    <!-- 헤더 내비게이션 -->
-    <div class="detail_view airseoul">
-        <button class="detail_close">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="-9 -9 40 40">
-                <defs>
-                    <style>.close_btn_1{fill:none;stroke:#ffffff;stroke-miterlimit:10;stroke-width:1px;}</style>
-                </defs>
-                <g id="detail_off" data-name="detail_off">
-                    <g id="detail_off2" data-name="detail_off2">
-                        <line class="close_btn_1" x1="1" y1="1" x2="21" y2="21"/>
-                        <line class="close_btn_1" x1="21" y1="1" x2="1" y2="21"/>
-                    </g>
-                </g>
-            </svg>
-        </button>
-        <div class="air_detail_wrap detail_bg"></div>
-        <div class="air_detail">
-            <img src="https://github.com/simjsik/hackbo.github.io/assets/39624384/4b81e09d-5600-4199-bcc4-23728ee72e3e" alt="air_detail">
-        </div>
-    </div>
-    <div class="detail_view lotte">
-        <button class="detail_close">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="-9 -9 40 40">
-                <defs>
-                    <style>.close_btn_1{fill:none;stroke:#ffffff;stroke-miterlimit:10;stroke-width:1px;}</style>
-                </defs>
-                <g id="detail_off" data-name="detail_off">
-                    <g id="detail_off2" data-name="detail_off2">
-                        <line class="close_btn_1" x1="1" y1="1" x2="21" y2="21"/>
-                        <line class="close_btn_1" x1="21" y1="1" x2="1" y2="21"/>
-                    </g>
-                </g>
-            </svg>
-        </button>
-        <div class="lotte_detail_wrap detail_bg"></div>
-        <div class="lotte_detail">
-            <img src="https://github.com/simjsik/hackbo.github.io/assets/39624384/f8bb365e-c9b6-4c2b-9cf2-de008dbb4d19" alt="lotte_detail">
-        </div>
-    </div>
-    <div class="detail_view bnk_view">
-        <button class="detail_close">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="-9 -9 40 40">
-                <defs>
-                    <style>.close_btn_1{fill:none;stroke:#ffffff;stroke-miterlimit:10;stroke-width:1px;}</style>
-                </defs>
-                <g id="detail_off" data-name="detail_off">
-                    <g id="detail_off2" data-name="detail_off2">
-                        <line class="close_btn_1" x1="1" y1="1" x2="21" y2="21"/>
-                        <line class="close_btn_1" x1="21" y1="1" x2="1" y2="21"/>
-                    </g>
-                </g>
-            </svg>
-        </button>
-        <div class="bnk_detail_wrap detail_bg"></div>
-        <div class="bnk_detail">
-            <img src="https://github.com/simjsik/hackbo.github.io/assets/39624384/92e1dbc7-170a-4ac6-84f3-e2b2c0eede3a" alt="bnk_detail">
-        </div>
-    </div>
-    <div class="detail_view helpy_view">
-        <button class="detail_close">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="-9 -9 40 40">
-                <defs>
-                    <style>.close_btn_1{fill:none;stroke:#ffffff;stroke-miterlimit:10;stroke-width:1px;}</style>
-                </defs>
-                <g id="detail_off" data-name="detail_off">
-                    <g id="detail_off2" data-name="detail_off2">
-                        <line class="close_btn_1" x1="1" y1="1" x2="21" y2="21"/>
-                        <line class="close_btn_1" x1="21" y1="1" x2="1" y2="21"/>
-                    </g>
-                </g>
-            </svg>
-        </button>
-        <div class="helpy_detail_wrap detail_bg"></div>
-        <div class="helpy_detail">
-            <img src="https://github.com/simjsik/hackbo.github.io/assets/39624384/9973c812-98cc-45b4-af33-9c27360892da" alt="helpy_detail">
-        </div>
-    </div>
     
+
+    <div class="projectBox">
+        <div class="pjBg">
+        </div>
+        <div class="pjClose">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 49 49">
+                <defs>
+                    <style>.cls-1{fill:none;stroke:#fff;stroke-miterlimit:10;}.cls-2{fill:#fff;}</style>
+                </defs>
+                <g id="pjClose" data-name="pjClose">
+                    <g id="pjCloseIcon"><circle class="cls-1" cx="24.5" cy="24.5" r="24"/>
+                        <path class="cls-2" d="M25.46,24.75,32.1,18.1a.49.49,0,0,0-.7-.7L24.75,24,18.1,17.4a.49.49,0,0,0-.7.7L24,24.75,17.4,31.4a.48.48,0,0,0,0,.7.48.48,0,0,0,.7,0l6.65-6.64L31.4,32.1a.48.48,0,0,0,.7,0,.48.48,0,0,0,0-.7Z"/>
+                    </g>
+                </g>
+            </svg>
+        </div>
+        <div class="pjTop">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 49 49">
+                <defs>
+                    <style>.cls-1{fill:none;stroke:#fff;stroke-miterlimit:10;}.cls-2{fill:#fff;}</style>
+                </defs>
+                <g id="pjTop" data-name="pjTop">
+                    <g id="pjTopIcon">
+                        <circle class="cls-1" cx="24.5" cy="24.5" r="24"/>
+                        <path class="cls-2" d="M13.5,20.12h6.56v1.32H17.52v7.44H16V21.44H13.5Z"/>
+                        <path class="cls-2" d="M24.42,29c-2.16,0-3.77-1.68-3.77-4.5S22.26,20,24.42,20s3.78,1.67,3.78,4.5S26.58,29,24.42,29Zm0-1.42c1.35,0,2.29-1.08,2.29-3.08s-.94-3.08-2.29-3.08-2.29,1.08-2.28,3.08S23.08,27.58,24.42,27.58Z"/><path class="cls-2" d="M29.51,20.12H32.6A2.7,2.7,0,0,1,35.5,23a2.71,2.71,0,0,1-2.92,2.9H31v3H29.51Zm2.87,4.5A1.46,1.46,0,0,0,34,23a1.45,1.45,0,0,0-1.61-1.58H31v3.18Z"/>
+                    </g>
+                </g>
+            </svg>
+        </div>
+        <div class="pjCont">
+            <div class="pjImg">
+            </div>
+        </div>
+    </div>
+
     <main>
         <section id="visual">
             <h2>visual</h2>
-            <div id="canvas" class="gradient">
-                <div class="visual_wrap">
-                    <ul class="visual_wrap_cont">
-                        <li>
-                            <p>2023</p>
-                            <p>WEB & PUBLISHING</p>
-                            <p>PORTFOLIO</p>
-                            <span>2023 웹 디자인 & 퍼블리싱 심혁보 포트폴리오</span>
+            <div class="visual">
+                <ul class="visTextBox">
+                    <li data-aos="fade-up" data-aos-duration="1000">
+                        <p>건강한 일상을 즐기는 방법</p>
+                    </li>
+                    <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                        <p>헬피에서 간단하게</p>
+                    </li>
+                </ul>
+
+                <ul class="viewBox">
+                    <li>
+                        <a href="#" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">프로젝트 보기</a>
+                    </li>
+                </ul>
+
+            </div>
+        </section>
+<!-- visual -->
+        <section id="text">
+            <h2>Text</h2>
+            <div class="textBox">
+                <div class="vsPhone" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"></div>
+                <div class="textCont">
+                    <ul>
+                        <li class="tcText1" data-aos="fade-up" data-aos-duration="1000">
+                            <p>건강한 헬스를 간단하게 한 곳에서 즐겨보세요.</p>
+                        </li>
+                        <li class="tcText2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                            <p>편리하고 체계적인 관리, 시작부터 끝까지</p>
+                        </li>
+                        <li class="tcText3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                            <p>헬스 가이드 헬피와 함께 일상을 바꿔보세요.</p>
                         </li>
                     </ul>
                 </div>
             </div>
         </section>
-        <!-- visual -->
-
-        <section id="profile">
-            <h2>profile</h2>
-            <div class="pro_wrap">
-                <p data-aos="fade-right" data-aos-duration="700">01 PROFILE</p>
-                <ul class="pro_wrap_top" data-aos="fade" data-aos-duration="700" data-aos-delay="500">
-                    <li>
-                        <p>안녕하세요!</p>
-                        <p>기본과 소통을 중요시하는</p>
-                        <p>열려있는 웹 퍼블리셔 심혁보 입니다.</p>
+<!-- text -->
+        <section id="mainCont">
+            <h2>Home1</h2>
+            <div class="homeBox">
+                <ul class="homeTextTop">
+                    <li class="hmText1">
+                        <p data-aos="fade-up" data-aos-duration="1000">홈 · 운동</p>
+                    </li>
+                    <li class="hmText2">
+                        <p data-aos="fade-up" data-aos-duration="1000">운동하기,</p>
+                        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">시작부터 끝까지</p>
+                        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">간단하게</p>
                     </li>
                 </ul>
-
-                <ul class="pro_wrap_about">
-                    <li data-aos="fade-right" data-aos-duration="700">
-                        <div class="tag_box"></div>
-                        <p>ABOUT</p>
-                    </li>
-                    <li data-aos="fade" data-aos-duration="700" data-aos-delay="500">
-                        <p>심혁보 1999.03.05</p>
-                        <p>010-8532-3126</p>
-                        <p>simjsik75@naver.com</p>
-                    </li>
-                </ul>
-                <!-- about -->
-
-                <ul class="pro_wrap_edu">
-                    <li data-aos="fade-right" data-aos-duration="700">
-                        <div class="tag_box"></div>
-                        <p>EDUCATION</p>
-                    </li>
-                    <li data-aos="fade" data-aos-duration="700" data-aos-delay="500">
-                        <div class="tag_circle">
-                            <p class="day">2022.10</p>
-                        </div>
-                        <p>SBS 아카데미 웹디자인&퍼블리싱 교육과정 수료</p>
-                    </li>
-                </ul>
-                <!-- education -->
-
-                <ul class="pro_wrap_cert">
-                    <li data-aos="fade-right" data-aos-duration="700">
-                        <div class="tag_box"></div>
-                        <p>CERTFICATE</p>
-                    </li>
-                    <li data-aos="fade" data-aos-duration="700" data-aos-delay="500">
-                        <div class="tag_circle">
-                            <p class="day">2023.2</p>
-                        </div>
-                        <p>GTQ 1급</p>
-                    </li>
-                    <li data-aos="fade" data-aos-duration="700" data-aos-delay="500">
-                        <div class="tag_circle">
-                            <p class="day">2023.4</p>
-                        </div>
-                        <p>웹디자인 기능사</p>
-                    </li>
-                </ul>
-                <!-- education -->
                 
-                <ul class="pro_wrap_skill">
-                    <li data-aos="fade-right" data-aos-duration="700">
-                        <div class="tag_box"></div>
-                        <p>SKILL</p>
+                <div class="hmImg1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"></div>
+                <div class="hmImg2" data-aos="fade-up" data-aos-duration="1000" ></div>
+
+                <ul class="homeTextBot">
+                    <li>
+                        <p data-aos="fade-up" data-aos-duration="1000">운동의 시작을 헬피와 해보세요.</p>
+                        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">세트관리와 휴식, 루틴관리는 물론,</p>
+                        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">전 월 대비 비교분석까지 한 눈에 보여줍니다.</p>
                     </li>
-                    <ul class="skill_wrap">
-                        <li class="skill_box" data-aos-duration="700" data-aos="zoom-in">
+                </ul>
+            </div>
+        </section>
+<!-- home -->
+        <section id="guideCont">
+            <h2>guide</h2>
+            <div class="guideBox">
+                <ul class="guideTextTop">
+                    <li class="gdText1">
+                        <p data-aos="fade-up" data-aos-duration="1000">홈 · 가이드</p>
+                    </li>
+                    <li class="gdText2">
+                        <p data-aos="fade-up" data-aos-duration="1000">간단하고 확실하게</p>
+                        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">기구사용, 스트레칭 모두</p>
+                        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">짧지만 완벽하게!</p>
+                    </li>
+                </ul>
+
+                <div class="guideMusBox">
+                    <div class="gdImg1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"></div>
+
+                    <ul class="guideMus">
+                        <li class="gdMusText1">
+                            <p data-aos="fade-right" data-aos-duration="1000">부위별 가이드</p>
                         </li>
-                        <li class="skill_box" data-aos-duration="700" data-aos-delay="100" data-aos="zoom-in">
+                        <li class="gdMusText2" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+                            <p>부위별 가이드로</p>
+                            <p>튼튼한 기본 잡기</p>
                         </li>
-                        <li class="skill_box" data-aos-duration="700" data-aos-delay="200" data-aos="zoom-in">
+                        <li class="gdMusText3" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+                            <p>언제 어디서든 빠르게,</p>
+                            <p>헬피 가이드로 어떤 운동이든 걱정없이!</p>
                         </li>
-                        <li class="skill_box" data-aos-duration="700" data-aos-delay="300" data-aos="zoom-in">
+                    </ul>    
+                </div>
+
+                <div class="guideStBox">
+                    <ul class="stImgBox">
+                        <li class="gdImgSt1" data-aos="fade-right" data-aos-duration="1000"></li>
+                        <li class="gdImgSt2" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200"></li>
+                        <li class="gdImgSt3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"></li>
+                        <li class="gdImgSt4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400"></li>
+                    </ul>
+                
+                    <ul class="guideSt">
+                        <li class="gdStText1" data-aos="fade-left" data-aos-duration="1000">
+                            <p>스트레칭 가이드</p>
                         </li>
-                        <li class="skill_box" data-aos-duration="700" data-aos-delay="400" data-aos="zoom-in">
+                        <li class="gdStText2" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                            <p>헬피 스트레칭 가이드로</p>
+                            <p>깔끔한 마무리</p>
                         </li>
-                        <li class="skill_box" data-aos-duration="700" data-aos-delay="500" data-aos="zoom-in">
+                        <li class="gdStText3" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                            <p>운동 전 후 완벽하게,</p>
+                            <p>헬피 스트레칭으로 마무리를 깔끔하게!</p>
                         </li>
-                        <li class="skill_box" data-aos-duration="700" data-aos-delay="600" data-aos="zoom-in">
+                    </ul>
+                </div>
+
+                <div class="guideMcBox">
+                    <ul class="guideMc">
+                        <li class="gdMcText1" data-aos="fade-right" data-aos-duration="1000">
+                            <p>헬스 기구 가이드</p>
                         </li>
-                        <li class="skill_box" data-aos-duration="700" data-aos-delay="700" data-aos="zoom-in">
+                        <li class="gdMcText2" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+                            <p>헬피 기구 가이드로</p>
+                            <p>튼튼한 기본 잡기</p>
+                        </li>
+                        <li class="gdMcText3" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+                            <p>언제 어디서든 빠르게,</p>
+                            <p>헬피 가이드로 어떤 운동이든 걱정없이!</p>
                         </li>
                     </ul>
 
-                </ul>
-                <!-- education -->
+                    <ul class="gdImgBox">
+                        <li class="gdImgMc1" data-aos="fade-up" data-aos-duration="1000"></li>
+                        <li class="gdImgMc2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"></li>
+                        <li class="gdImgMc3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"></li>
+                    </ul>
+                </div>
 
             </div>
         </section>
-        <!-- profile -->
-
-        <section id="work">
-            <h2>work</h2>
-            <div class="work_wrap">
-                <ul class="work_web_wrap">
-                    <li data-aos="fade-right" data-aos-duration="700">
-                        <p>02 WORK - WEB</p>
+<!-- guide -->
+        <section id="rutineCont">
+            <h2>rutine</h2>
+            <div class="rutineBox">
+                <ul class="rutineTextTop">
+                    <li class="rtText1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                        <p>루틴</p>
                     </li>
-                    <li class="nerdy" data-aos="flip-down" data-aos-duration="500">
-                        <div class="work_nerdy_wrap">
-                            <p data-aos="fade" data-aos-duration="1000" data-aos-delay="200">NERDY</p>
-                            <div class="nerdy_box" data-aos="fade" data-aos-duration="1000" data-aos-delay="500">
-                                <img src="https://github.com/simjsik/hackbo.github.io/assets/39624384/3583ee34-3e69-48b8-bac8-acb2f6704407" alt="nerdy">
-                            </div>
-                            <div class="work_text_box" data-aos="fade" data-aos-duration="1000">
-                                <p>대한민국 스트릿 패션 브랜드 널디의 홈페이지 반응형 리디자인 제작물 입니다.</p>
-                            </div>
-                        </div>
-                        <button class="nerdy_home_btn" data-aos="flip-down" data-aos-duration="1000">
-                            <a href="../NERDY/index.html" target="_blank">홈페이지</a>
-                        </button>
-                    </li>
-                    <li class="lafudge" data-aos="flip-down" data-aos-duration="500">
-                        <div class="work_lafudge_wrap">
-                            <p data-aos="fade" data-aos-duration="1000" data-aos-delay="200">Lafudge Store</p>
-                            <div class="lafudge_box" data-aos="fade" data-aos-duration="1000" data-aos-delay="500">
-                                <img src="https://github.com/simjsik/hackbo.github.io/assets/39624384/ad09c644-a6e9-4ddf-913d-bc92daa1bc92" alt="lafudge">
-                            </div>
-                            <div class="work_text_box" data-aos="fade" data-aos-duration="1000">
-                                <p>라퍼지스토어 브랜드의 반응형 홈페이지 제작물 입니다.</p>
-                            </div>
-                        </div>
-                        <button class="lafudge_home_btn" data-aos="flip-down" data-aos-duration="1000">
-                            <a href="../LafudgeStore/index.html" target="_blank">홈페이지</a>
-                        </button>
-                    </li>
-                    <li class="helpy" data-aos="flip-down" data-aos-duration="500">
-                        <div class="work_helpy_wrap">
-                            <p data-aos="fade" data-aos-duration="1000" data-aos-delay="200">HELPY - Web</p>
-                            <div class="helpy_box" data-aos="fade" data-aos-duration="1000" data-aos-delay="500">
-                                <img src="https://github.com/simjsik/hackbo.github.io/assets/39624384/2c878e68-8940-4127-9c72-845ccb5ec209" alt="helpyWeb">
-                            </div>
-                           <div class="work_text_box" data-aos="fade" data-aos-duration="1000">
-                                <p>개인 UI&UX 디자인 프로젝트의 홈페이지 제작물 입니다.</p>
-                           </div>
-                        </div>
-                        <button class="helpy_home_btn" data-aos="flip-down" data-aos-duration="1000">
-                            <a href="../helpy/index.html" target="_blank">
-                                홈페이지
-                            </a>
-                        </button>
+                    <li class="rtText2">
+                        <p data-aos="fade-up" data-aos-duration="1000">나만의 루틴카드로</p>
+                        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">하루하루</p>
+                        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">간단하게 운동하기!</p>
                     </li>
                 </ul>
-                <ul class="work_design_wrap">
-                    <li data-aos="fade-right" data-aos-duration="700">
-                        <p>02 WORK - DESIGN</p>
-                    </li>
-                    <li class="helpy2" data-aos="flip-down" data-aos-duration="500">
-                        <div class="work_helpy2_wrap">
-                            <p data-aos="fade" data-aos-duration="1000" data-aos-delay="200">HELPY - Design</p>
-                            <div class="helpy2_box" data-aos="fade" data-aos-duration="1000" data-aos-delay="500">
-                                <img src="https://github.com/simjsik/hackbo.github.io/assets/39624384/a86f6b88-3bfd-4abe-8772-c79022b75bba" alt="helpyDesign">
+                <div class="appAni" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="rutineCase">
+                        <img src="https://github.com/simjsik/hackbo.github.io/assets/39624384/22388c67-cb25-4a9d-8dd0-bdaf3f7a4c3a" alt="루틴케이스">
+                        <div class="rtScl">
+                            <div class="rutinCle">
+                                <svg class="rtCir" xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 62 62" fill="none">
+                                    <circle cx="30" cy="30" r="29" fill="white"/>
+                                </svg>
+                                <svg class="rtCh" xmlns="http://www.w3.org/2000/svg" width="30" height="24" viewBox="0 0 30 24" fill="none">
+                                    <path d="M3 12L10 19L27 3" stroke="#4BC58A" stroke-width="6" stroke-linecap="round"/>
+                                </svg>
                             </div>
-                           <div class="work_text_box" data-aos="fade" data-aos-duration="1000">
-                                <p>개인 UI&UX 디자인 프로젝트 입니다.</p>
-                           </div>
                         </div>
-                        <button class="helpy2_detail_btn detail" data-aos="flip-down" data-aos-duration="1000">자세히보기</button>
+                    </div>
+                </div>
+                <ul class="rutineTextBot">
+                    <li class="rtText3">
+                        <p data-aos="fade-up" data-aos-duration="1000">관리는 <span>편하게,</span></p>
+                        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">운동은 <span>만족스럽게.</span></p>
                     </li>
-                    <li class="travel" data-aos="flip-down" data-aos-duration="500">
-                        <div class="work_travel_wrap">
-                            <p data-aos="fade" data-aos-duration="1000" data-aos-delay="200">여행 패키지 프로모션</p>
-                            <div class="travel_wrap">
-                                <div class="travel_box" data-aos="fade" data-aos-duration="1000" data-aos-delay="500">
-                                    <img src="https://github.com/simjsik/hackbo.github.io/assets/39624384/e34868ce-c6b2-4a82-9baa-def89604af06" alt="북해도">
-                                </div>
-                                <div class="travel2_box">
-                                    <img src="https://github.com/simjsik/hackbo.github.io/assets/39624384/12618851-7ffd-4a0b-a4b1-974e4f90b1df" alt="동남아">
-                                </div>
-                            </div>
-                           <div class="work_text_box" data-aos="fade" data-aos-duration="1000">
-                                <p>롯데관광 북해도, 에어서울 동남아 여행 패키지 프로모션 디자인 입니다.</p>
-                           </div>
-                        </div>
-                        <button class="travel_home_btn detail" data-aos="flip-down" data-aos-duration="1000">롯데관광</button>
-                        <button class="travel2_home_btn detail" data-aos="flip-down" data-aos-duration="1000">에어서울</button>                        
-                    </li>
-                    <li class="bnk" data-aos="flip-down" data-aos-duration="500">
-                        <div class="work_bnk_wrap">
-                            <p data-aos="fade" data-aos-duration="1000" data-aos-delay="200">BNK 경남은행</p>
-                            <div class="bnk_box" data-aos="fade" data-aos-duration="1000" data-aos-delay="500">
-                                <img src="https://github.com/simjsik/hackbo.github.io/assets/39624384/32b59c09-9938-4218-a9e4-5ec3c0ea027e" alt="bnk">
-                            </div>
-                           <div class="work_text_box" data-aos="fade" data-aos-duration="1000">
-                                <p>BNK 경남은행 앱 리디자인 공모전 프로젝트 제작물 입니다.</p>
-                           </div>
-                        </div>
-                        <button class="bnk_detail_btn detail" data-aos="flip-down" data-aos-duration="1000">자세히보기</button>
+                    <li class="rtText4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                        <p>한눈에 확인 가능한 캘린더와 나만의 루틴 카드</p>
+                        <p>당일 루틴과 운동완료 체크까지!</p>
+                        <p>지난 운동루틴까지 확인할 수 있어요.</p>
                     </li>
                 </ul>
+            <div class="phoneShadow"></div>
             </div>
         </section>
+<!-- routine -->
+        <section id="statistics">
+            <h2>statistics</h2>
+            <div class="staBox">
+                <ul class="staTextTop">
+                    <li class="stText1" data-aos="fade-up" data-aos-duration="1000">
+                        <p>통계</p>
+                    </li>
+                    <li class="stText2">
+                        <p data-aos="fade-up" data-aos-duration="1000">꾸준한 운동의 시작,</p>
+                        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">내 운동통계를 </p>
+                        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">한눈에 관리하세요!</p>
+                    </li>
+                </ul>
+
+                <div class="stContBox">
+                    <div class="htBalan">
+                        <div class="hbImg" data-aos="fade-up" data-aos-duration="1000"></div>
+                        <ul class="hbText">
+                            <li data-aos="fade-up" data-aos-duration="1000"><p>내 운동균형</p></li>
+                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><p>전체적인 운동 밸런스를</p></li>
+                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><p>한 곳에서 간편하게 확인할 수</p></li>
+                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><p>있습니다.</p></li>
+                        </ul>
+                    </div>
+                    <div class="myRoutine">
+                        <div class="mrImg" data-aos="fade-up" data-aos-duration="1000"></div>
+                        <ul class="mrText">
+                            <li data-aos="fade-up" data-aos-duration="1000"><p>운동 루틴</p></li>
+                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><p>운동통계를 토대로</p></li>
+                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><p>사용자 운동 루틴을 분석해</p></li>
+                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><p>자세하게 보여줍니다.</p></li>
+                        </ul>
+                    </div>
+                    <div class="partSta">
+                        <div class="psImg" data-aos="fade-up" data-aos-duration="1000"></div>
+                        <ul class="psText">
+                            <li data-aos="fade-up" data-aos-duration="1000"><p>부위별 운동량</p></li>
+                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><p>전체적인 운동 밸런스를</p></li>
+                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><p>한 곳에서 간편하게 확인할 수</p></li>
+                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><p>있습니다.</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!-- statistics -->
     </main>
 
-    <footer id="contact">
+    <footer>
         <h2>footer</h2>
-        <div class="footer_wrap">
-            <ul class="footer_cont">
-                <li data-aos="fade-right" data-aos-duration="700">
-                    <p>03 CONTACT</p>
+        <div class="fooImg"></div>
+        <div class="fooBox">
+            <ul>
+                <li class="fooLogo">
+                    <a href="#">
+                        <img src="https://github.com/simjsik/hackbo.github.io/assets/39624384/1e980ae3-f20b-4268-aaf2-5c748dc0bfae" alt="footerLogo">
+                    </a>
                 </li>
-
-                <li class="phone" data-aos="fade" data-aos-duration="700" data-aos-delay="500">
-                    <div class="phn_box"></div>
+                <li class="fooText">
+                    <p>SIM HYEOK BO</p>
                     <p>010-8532-3126</p>
-                </li>
-                <li class="mail" data-aos="fade" data-aos-duration="700" data-aos-delay="500">
-                    <div class="mail_box"></div>
                     <p>simjsik75@naver.com</p>
-                </li>
-
-                <li class="footer_bottom">
-                    <p>해당 홈페이지는 상업적 용도가 아닌 개인 포트폴리오 용으로 제작 되었습니다.</p>
-                    <b>ⓒ copyright Sim Hyeokbo. All Right Reserved</b>
                 </li>
             </ul>
         </div>
     </footer>
-    
-    <script src="js/three.min.js"></script>
-    <script src="js/projector.js"></script>
-    <script src="js/canvas-renderer.js"></script>
-    <script src="js/3d-lines-animation.js"></script>
+
     <script src="js/jquery-3.6.1.min.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/color.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
 </body>
 </html>
