@@ -191,15 +191,15 @@ main{
     height: 100%;
 }
 .home_content:nth-of-type(1){
-    background: url(../img/main1-1.jpg) top no-repeat;
+    background: url(https://github.com/simjsik/hackbo.github.io/assets/39624384/d598e41d-b73a-46ff-bf47-22dc25b54477) top no-repeat;
 }
 .home_content:nth-of-type(2){
     background-color: blue;
-    background: url(../img/main2-1.jpg) top no-repeat;
+    background: url(https://github.com/simjsik/hackbo.github.io/assets/39624384/5f532e33-adae-4f62-83fe-2fbc668a84c3) top no-repeat;
 }
 .home_content:nth-of-type(3){
     background-color: green;
-    background: url(../img/main3-1.jpg) top no-repeat;
+    background: url(https://github.com/simjsik/hackbo.github.io/assets/39624384/c6108115-76e6-45fd-b900-90893d73e6fc) top no-repeat;
 }
 .home_content:nth-of-type(4){
     height: 360px;
@@ -396,15 +396,15 @@ footer{
         height: 100%;
     }
     .home_content:nth-of-type(1){
-        background: url(../img/main1.jpg) top no-repeat;
+        background: url(https://github.com/simjsik/hackbo.github.io/assets/39624384/cc956a5f-3fa8-4fa0-8f3c-efb683687e9e) top no-repeat;
     }
     .home_content:nth-of-type(2){
         background-color: blue;
-        background: url(../img/main2.jpg) top no-repeat;
+        background: url(https://github.com/simjsik/hackbo.github.io/assets/39624384/b3150054-0169-45f2-91f0-e0340bc000fd) top no-repeat;
     }
     .home_content:nth-of-type(3){
         background-color: green;
-        background: url(../img/main3.jpg) top no-repeat;
+        background: url(https://github.com/simjsik/hackbo.github.io/assets/39624384/d081831e-8d3a-4fc1-a0fb-bc057b1cafa1) top no-repeat;
     }
     .home_content:nth-of-type(4){
         display: none;
