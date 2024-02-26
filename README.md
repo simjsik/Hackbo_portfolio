@@ -203,4 +203,5 @@ logo
 
 -------- Vibe
 ![mix1](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/48885492-61fd-4a35-9195-246be363d810)
+![myMix1](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/4da954ad-284d-46c7-bb0f-f9499fbf99eb)
 
