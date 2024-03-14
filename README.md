@@ -228,3 +228,26 @@ logo
 ![Aille](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/3ce94abf-43c4-4320-a26f-0e8a9dbb338b)
 ![twice](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/c3836435-09f0-486b-9f7e-acd2045f5b5a)
 
+------- artistImg
+![아이유](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/32938391-3f15-4458-a945-432197696006)
+![츄](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/9f74bec3-a3bd-468a-a4b8-570fd1e7b5d6)
+![최예나](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/d2b9fa19-ca71-484a-8c46-5270e4a52349)
+![에스파](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/48c858cb-c1f7-4393-8b31-0f3fd7098515)
+![원슈타인](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/e60ca7e4-5985-4144-938f-6219b24430a5)
+![우디](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/6d839701-7bde-4cbd-80a5-34c70bac8661)
+![아이브](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/660bfd35-c61a-4ccc-9dc1-0080900541ca)
+![마크툽](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/95224768-69a6-4fd1-90ce-4a37517f785f)
+![트와이스](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/ace78e6a-782b-4adc-9ca7-ef972c81742e)
+![에일리](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/e397d666-edea-4795-bbf7-be1478f52f50)
+![악뮤](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/cade9320-8ba8-4cc7-b81f-d8f938b46f85)
+![비비](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/b8e2c8ca-747f-4456-8267-5d8fbea7db05)
+![르세라핌](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/9f450c02-2c3e-433c-9357-8ade8727ff13)
+![여자아이들](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/72a6e892-19b4-463d-938b-901675a4a955)
+![바비](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/48ae8acf-07d8-456e-b243-505d7cc24813)
+![문별](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/7d1c7206-56f9-48cc-a3ac-00a492faf3ee)
+![남규리](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/b894b459-fc06-4e28-bc2a-f6aabeeb3777)
+![경서예지](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/c00ce502-a9ee-48b2-ba74-62d87a4cbd8f)
+![2am](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/f03ac46f-85f0-48c6-b530-793c97cb3d15)
+![임재현](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/6b1f5cb3-d10a-4e49-ab2a-c267a5bf8862)
+
+
