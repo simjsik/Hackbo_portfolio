@@ -227,6 +227,8 @@ logo
 ![wonstein](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/07333506-2770-4461-ac90-7aeb836e5106)
 ![Aille](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/3ce94abf-43c4-4320-a26f-0e8a9dbb338b)
 ![twice](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/c3836435-09f0-486b-9f7e-acd2045f5b5a)
+![바운디](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/dc131915-d31f-49b8-a9cf-b6acc3cb25c6)
+
 
 ------- artistImg
 ![아이유](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/32938391-3f15-4458-a945-432197696006)
