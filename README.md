@@ -1,4 +1,4 @@
-![Nerdy](https://github.com/simjsik/hackbo.github.io/assets/39624384/3583ee34-3e69-48b8-bac8-acb2f6704407)
+![cir_logo](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/aabaf082-26aa-486b-8faf-fc70c49a3e57)![Nerdy](https://github.com/simjsik/hackbo.github.io/assets/39624384/3583ee34-3e69-48b8-bac8-acb2f6704407)
 ![airSeoul](https://github.com/simjsik/hackbo.github.io/assets/39624384/4b81e09d-5600-4199-bcc4-23728ee72e3e)
 ![scroll](https://github.com/simjsik/hackbo.github.io/assets/39624384/1dce4a95-ebdd-424a-9e34-8089f55505e3)
 ![travel](https://github.com/simjsik/hackbo.github.io/assets/39624384/e34868ce-c6b2-4a82-9baa-def89604af06)
@@ -202,6 +202,11 @@ logo
 
 
 -------- Vibe
+![cir_logo](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/9932907b-33ca-4a75-ac33-f639b6122b5e)
+[logo](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/2f3c5d80-dc30-477d-8f96-f88e428cb195)
+
+
+--svg
 ![mix1](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/48885492-61fd-4a35-9195-246be363d810)
 ![myMix1](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/4da954ad-284d-46c7-bb0f-f9499fbf99eb)
 ![Drama](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/a6c9bfd8-0790-44ca-bd4f-53f9bdf3e288)
@@ -228,6 +233,7 @@ logo
 ![Aille](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/3ce94abf-43c4-4320-a26f-0e8a9dbb338b)
 ![twice](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/c3836435-09f0-486b-9f7e-acd2045f5b5a)
 ![바운디](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/dc131915-d31f-49b8-a9cf-b6acc3cb25c6)
+![바운디br](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/c0815025-c524-41c1-bb71-d148c5ad5080)
 
 
 ------- artistImg
