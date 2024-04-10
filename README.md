@@ -208,6 +208,8 @@ logo
 ![sr_mb](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/fda19d65-ee1d-4238-9b40-8a447704cf24)
 ![lb_mb](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/d1e0c1c4-171a-4345-8aa2-76ddd8e52781)
 ![pr_mb](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/f6f01232-c85f-4490-b04e-8f00a3155281)
+![more](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/152f86a5-392f-460c-a656-b7214fc69b49)
+
 
 --svg
 
