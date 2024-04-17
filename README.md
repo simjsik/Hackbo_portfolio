@@ -1,4 +1,4 @@
-![cir_logo](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/aabaf082-26aa-486b-8faf-fc70c49a3e57)![Nerdy](https://github.com/simjsik/hackbo.github.io/assets/39624384/3583ee34-3e69-48b8-bac8-acb2f6704407)
+![play](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/e37acfc3-6754-4ad9-b987-9fa4050b249c)![cir_logo](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/aabaf082-26aa-486b-8faf-fc70c49a3e57)![Nerdy](https://github.com/simjsik/hackbo.github.io/assets/39624384/3583ee34-3e69-48b8-bac8-acb2f6704407)
 ![airSeoul](https://github.com/simjsik/hackbo.github.io/assets/39624384/4b81e09d-5600-4199-bcc4-23728ee72e3e)
 ![scroll](https://github.com/simjsik/hackbo.github.io/assets/39624384/1dce4a95-ebdd-424a-9e34-8089f55505e3)
 ![travel](https://github.com/simjsik/hackbo.github.io/assets/39624384/e34868ce-c6b2-4a82-9baa-def89604af06)
@@ -211,6 +211,7 @@ logo
 ![more](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/152f86a5-392f-460c-a656-b7214fc69b49)
 ![slDown](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/e93e657c-c906-4ebb-8fde-3e822bd182ee)
 ![slDown (2)](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/9daaefc6-5522-4998-a84d-48a062f45b22)
+![play](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/4a784618-5801-43ac-8df8-46cb6370ffa9)
 
 
 --svg
