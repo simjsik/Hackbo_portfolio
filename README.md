@@ -212,6 +212,7 @@ logo
 ![slDown](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/e93e657c-c906-4ebb-8fde-3e822bd182ee)
 ![slDown (2)](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/9daaefc6-5522-4998-a84d-48a062f45b22)
 ![play](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/4a784618-5801-43ac-8df8-46cb6370ffa9)
+![lb_ht](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/1193eb74-5610-438c-8ab3-589e56e549d9)
 
 
 --svg
