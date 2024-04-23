@@ -216,7 +216,13 @@ logo
 
 
 --svg
+![kpop](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/553bccef-65a9-412f-a39d-ca27fd0226cc)
+![band](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/57165231-7a25-444a-a416-17398268579c)
+![live](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/52a22d64-eaf8-40aa-93c5-468d9728f675)
 
+
+
+--gif
 
 ![mix1](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/48885492-61fd-4a35-9195-246be363d810)
 ![myMix1](https://github.com/simjsik/Hackbo_portfolio/assets/39624384/4da954ad-284d-46c7-bb0f-f9499fbf99eb)
